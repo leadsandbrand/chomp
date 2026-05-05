@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Reyes';
+    src:
+      url('/fonts/Reyes-Black.woff2') format('woff2'),
+      url('/fonts/Reyes-Black.woff') format('woff'),
+      url('/fonts/Reyes-Black.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  /* Floating animation */
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+@import "tailwindcss";
