@@ -212,7 +212,7 @@ const DetailProduct = () => {
 
   {/* BACK IMAGE */}
   <img
-    src="/Chomp Paneer+ Ingredients.final (1).png"
+    src="/Chomp Soya+ ingredients.final.png"
     alt="product back"
     className="
       absolute
