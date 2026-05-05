@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroPage from '../commponent/heropage'
+import HeroPage from '../commponent/Heropage'
 import FeaturedProduct from '../commponent/FeaturedProducts'
 import ProductAdvantages from '../commponent/ProductAdvantages'
 import { Contact } from 'lucide-react'
