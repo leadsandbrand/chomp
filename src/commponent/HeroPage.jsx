@@ -39,7 +39,7 @@ export default function HeroPage() {
                 leading-tight
                 font-oswald
                 font-bold
-                text-black
+               text-[#d97063]
               "
             >
               BHOPAL'S FIRST <br />
@@ -55,15 +55,15 @@ export default function HeroPage() {
                 sm:text-base
                 md:text-[15px]
                 font-bold
-                text-black
+                
                 leading-relaxed
               "
             >
               <span className="block">
-                <span className="text-[#d97063]">REAL FOOD</span> |
-                <span className="text-[#d97063]"> NO PRESERVATIVES</span> |
-                <span className="text-[#d97063]"> NO FILLERS</span> |
-                <span className="text-[#d97063]"> NO COMPROMISE</span>
+                <span>REAL FOOD</span> |
+                <span > NO PRESERVATIVES</span> |
+                <span > NO FILLERS</span> |
+                <span > NO COMPROMISE</span>
               </span>
 
               <span className="block mt-2">

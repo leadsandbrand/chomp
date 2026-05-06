@@ -4,10 +4,49 @@ import Navbar from '../commponent/Navbar';
 import FAQPage from './FAQPage';
 const Work = () => {
   return (
-<section className="bg-white py-20 px-4 md:px-12 lg:px-[80px]">
+<section className="bg-white px-4 md:px-12 lg:px-[80px]">
   <Navbar/>
 {/* HEADING */}
-<div className="text-center mb-16 mt-20">
+{/* HERO IMAGE */}
+<div className="w-full flex justify-center relative items-center">
+
+  {/* LINE */}
+  <div
+    className="
+      absolute
+      top-[322px]
+      left-0
+      w-[92%]
+      h-[1px]
+      bg-[#d97063]
+       ml-[32px]
+       
+      
+    "
+  ></div>
+
+  {/* IMAGE */}
+  <img
+    src="/how.png"
+    alt="Fresh Food"
+    className="
+      relative
+      z-10
+      w-full
+      max-w-[500px]
+      h-[250px] sm:h-[350px] md:h-[450px]
+      object-cover
+      
+      px-6
+    "
+  />
+
+</div>
+
+
+
+
+<div className="text-center mb-16 ">
   <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black">
     Getting started is super easy!
   </h2>
@@ -72,7 +111,7 @@ const Work = () => {
 </div>
 
 {/* STEPS */}
-<div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+<div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto pb-6">
 
   {/* Step 1 */}
   <div className="text-center">

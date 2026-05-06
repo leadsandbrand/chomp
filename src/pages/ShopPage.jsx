@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from '../commponent/Navbar'
+import Footer from '../commponent/Footer'
 
 const DetailProduct = () => {
   return (
+    <>
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
    <Navbar/>
 <section className="h-screen snap-start bg-[#7fa857] overflow-hidden flex items-center font-oswald" id='soya'>
@@ -247,6 +249,8 @@ const DetailProduct = () => {
 </section>
     
     </div>
+  
+    </>
   )
 }
 
