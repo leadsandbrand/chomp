@@ -39,7 +39,7 @@ export default function FAQPage(){
   const [active, setActive] = useState(null);
 
   return (
-    <section className="bg-[#f9f9f9] py-20 px-4 md:px-12 lg:px-[80px]">
+    <section className="bg-[#f9f9f9]   px-4 md:px-12 lg:px-[80px]">
 
       {/* Heading */}
       <div className="text-center mb-16 max-w-2xl mx-auto">

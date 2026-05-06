@@ -249,7 +249,7 @@ const DetailProduct = () => {
 </section>
     
     </div>
-  
+  <Footer/>
     </>
   )
 }

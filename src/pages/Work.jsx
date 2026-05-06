@@ -2,8 +2,10 @@ import React from 'react'
 import { Package, Calendar, Truck } from "lucide-react";
 import Navbar from '../commponent/Navbar';
 import FAQPage from './FAQPage';
+import Footer from '../commponent/Footer';
 const Work = () => {
   return (
+    <>
 <section className="bg-white px-4 md:px-12 lg:px-[80px]">
   <Navbar/>
 {/* HEADING */}
@@ -162,7 +164,10 @@ const Work = () => {
 
 
 <FAQPage/>
+
 </section>
+
+<Footer/></>
   )
 }
 
