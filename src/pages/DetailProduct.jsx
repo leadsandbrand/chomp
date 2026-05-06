@@ -45,8 +45,8 @@ const DetailProduct = () => {
 
   {/* FRONT IMAGE */}
   <img
-    src="/Chomp Soya+ cooked.final.png"
-    alt="product front"
+     src="/chomp-soya-cooked-final.png"
+  alt="product front"
     className="
       relative
       w-[180px] sm:w-[220px] md:w-[280px] lg:w-[350px]
@@ -212,7 +212,7 @@ const DetailProduct = () => {
 
   {/* BACK IMAGE */}
   <img
-    src="/Chomp Soya+ ingredients.final.png"
+    src="/Chomp-Soya+ingredients.final.png"
     alt="product back"
     className="
       absolute
@@ -226,8 +226,8 @@ const DetailProduct = () => {
 
   {/* FRONT IMAGE */}
   <img
-    src="/Chomp Paneer+ cooked.final.png"
-    alt="product front"
+    src="/chomp-soya-cooked-final.png"
+  alt="product front"
     className="
       relative
       w-[180px] sm:w-[220px] md:w-[280px] lg:w-[350px]
