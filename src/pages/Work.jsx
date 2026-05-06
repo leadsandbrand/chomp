@@ -3,6 +3,7 @@ import { Package, Calendar, Truck } from "lucide-react";
 import Navbar from '../commponent/Navbar';
 import FAQPage from './FAQPage';
 import Footer from '../commponent/Footer';
+import Footer1 from '../commponent/Footer1';
 const Work = () => {
   return (
     <>
@@ -167,7 +168,8 @@ const Work = () => {
 
 </section>
 
-<Footer/></>
+<Footer1/>
+</>
   )
 }
 

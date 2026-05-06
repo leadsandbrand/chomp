@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../commponent/Navbar'
 import Footer from '../commponent/Footer'
+import Footer1 from '../commponent/Footer1'
 
 const DetailProduct = () => {
   return (
@@ -249,7 +250,7 @@ const DetailProduct = () => {
 </section>
     
     </div>
-  <Footer/>
+  <Footer1/>
     </>
   )
 }

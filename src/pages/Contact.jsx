@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../commponent/Navbar";
 import Footer from "../commponent/Footer";
+import Footer1 from "../commponent/Footer1";
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -302,7 +303,7 @@ export default function ContactPage() {
   
     </section>
   
-    <Footer/>
+   <Footer1/>
     </>
   );
 }
