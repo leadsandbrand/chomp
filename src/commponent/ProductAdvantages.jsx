@@ -30,7 +30,7 @@ export default function ProductAdvantages() {
   ];
 
   return (
-    <section className="relative bg-[#fff5f2] py-24 overflow-hidden ">
+    <section className="relative bg-[#fff] py-23 overflow-hidden ">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-10"
@@ -126,6 +126,9 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
 
      
       </div>
+      <div className="flex justify-center pb-6 py-33">
+  <div className="w-[90%] md:w-[83%] h-[1px] bg-black"></div>
+</div>
     </section>
   );
 }

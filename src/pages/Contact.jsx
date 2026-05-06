@@ -18,7 +18,7 @@ export default function ContactPage() {
     <section className="bg-[#f9f9f9] py-20 px-4 md:px-12 lg:px-[80px]">
    <Navbar/>
       {/* HEADING */}
-      <div className="text-center mb-12 max-w-3xl mx-auto">
+      <div className="text-center mb-12 max-w-3xl mx-auto mt-20">
         <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black">
           Ready to make your dog’s day? And your life a lot easier?
         </h2>

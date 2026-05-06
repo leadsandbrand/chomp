@@ -7,7 +7,7 @@ const Work = () => {
 <section className="bg-white py-20 px-4 md:px-12 lg:px-[80px]">
   <Navbar/>
 {/* HEADING */}
-<div className="text-center mb-16">
+<div className="text-center mb-16 mt-20">
   <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black">
     Getting started is super easy!
   </h2>

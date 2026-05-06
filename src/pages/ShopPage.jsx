@@ -5,7 +5,7 @@ const DetailProduct = () => {
   return (
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
    <Navbar/>
-<section className="h-screen snap-start bg-[#7fa857] overflow-hidden flex items-center font-oswald">
+<section className="h-screen snap-start bg-[#7fa857] overflow-hidden flex items-center font-oswald" id='soya'>
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
@@ -65,7 +65,7 @@ const DetailProduct = () => {
 
 </section>
     
-<section className="h-screen snap-start bg-[#d9766a] overflow-hidden flex items-center font-oswald">
+<section    id='chicken' className="h-screen snap-start bg-[#d9766a] overflow-hidden flex items-center font-oswald">
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
@@ -125,8 +125,8 @@ const DetailProduct = () => {
 
 </section>
     
-<section className="h-screen snap-start bg-[#e7ac4e] overflow-hidden flex items-center font-oswald">
-
+<section  id='egg' className="h-screen snap-start bg-[#e7ac4e] overflow-hidden flex items-center font-oswald">
+ 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
   {/* LEFT CONTENT */}
@@ -185,7 +185,7 @@ const DetailProduct = () => {
 
 </section>
     
-<section className="h-screen snap-start bg-[#9aa562] overflow-hidden flex items-center font-oswald">
+<section  id="paneer" className="h-screen snap-start bg-[#9aa562] overflow-hidden flex items-center font-oswald">
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 

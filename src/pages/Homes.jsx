@@ -5,7 +5,7 @@ import ProductAdvantages from '../commponent/ProductAdvantages'
 import { Contact } from 'lucide-react'
 import FAQPage from './FAQPage'
 import Footer from '../commponent/Footer'
-import DetailProduct from './DetailProduct'
+
 import Story from '../commponent/Story'
 import Work from './Work'
 import Testimonial from '../commponent/Testimonials'
@@ -20,7 +20,7 @@ const Homes = () => {
      <Story/>
     
    <Testimonial/>
-       {/* <DetailProduct/> */}
+       
            <Footer/>
        
     </div>

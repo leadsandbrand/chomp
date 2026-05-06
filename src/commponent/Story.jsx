@@ -1,19 +1,31 @@
 import React from 'react'
 
 const Story = () => {
-  return (
-<div className="flex flex-col lg:flex-row items-center justify-between gap-3  py-24 mb-10">
+  return (  
+    <section>
+  <div className="flex flex-col lg:flex-row items-center justify-between gap-3  py-22 mb-8">
 
 {/* IMAGE */}
-<div className="w-full lg:w-[50%]  flex justify-start">
+{/* IMAGE */}
+<div className="w-full lg:w-[50%] flex justify-center lg:justify-start overflow-hidden">
+
   <img
     src="/chomstory image-Photoroom.png"
-    className="w-[500px] lg:w-[650px] -ml-14 lg:-ml-4 mt-15"
+    className="
+      w-[320px]
+      sm:w-[420px]
+      md:w-[520px]
+      lg:w-[650px]
+      xl:w-[720px]
+      object-contain
+
+    "
   />
+
 </div>
 
 {/* TEXT */}
-<div className="w-full lg:w-[52%] max-w-2xl pr-20 mt-5">
+<div className="w-full lg:w-[52%] max-w-2xl pr-27 mt-5">
 
   <h2 className="text-3xl md:text-5xl font-bold">
     How Chomp got started
@@ -49,8 +61,15 @@ Please note – we cook fresh each day. We do request that you give us at least 
 
   </p>
 </div>
+ </div>
 
+<div className="flex justify-center  ">
+  <div className="w-[90%] md:w-[83%] h-[1px] bg-black"></div>
 </div>
+
+
+</section>
+
   )
 }
 

@@ -28,73 +28,76 @@ export default function Testimonial() {
   const next = (index + 1) % testimonials.length;
 
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center bg-white  pb-10">
+     
 
-      {/* TITLE */}
-      <h1 className="text-3xl">Don’t just take our word for it. </h1>
-      <p className="text-gray-500 mb-6 text-center">
-        Testimonials & Reviews – What our customers are saying.....
-      </p>
+<div className="w-full h-screen flex flex-col items-center justify-center bg-white  mt-30 pb-10">
 
-      {/* CARDS */}
-      <div className="relative w-full max-w-5xl flex items-center justify-center">
+{/* TITLE */}
+<h1 className="text-3xl">Don’t just take our word for it. </h1>
+<p className="text-gray-500 mb-6 text-center">
+  Testimonials & Reviews – What our customers are saying.....
+</p>
 
-        {/* LEFT */}
-        <div className="absolute left-0 w-1/3 opacity-30 scale-90 text-center px-4">
-          <img
-            src={testimonials[prev].image}
-            className="w-12 h-12 rounded-full mx-auto mb-3 object-cover"
-          />
-          <p className="text-gray-400 italic">{testimonials[prev].text}</p>
-          <p className="mt-2 font-semibold">{testimonials[prev].name}</p>
-        </div>
+{/* CARDS */}
+<div className="relative w-full max-w-5xl flex items-center justify-center">
 
-        {/* CENTER */}
-        <div className="bg-[#f5f3ef] rounded-[40%] px-10 py-12 text-center max-w-md z-10 transition-all duration-500">
+  {/* LEFT */}
+  <div className="absolute left-0 w-1/3 opacity-30 scale-90 text-center px-4">
+    <img
+      src={testimonials[prev].image}
+      className="w-12 h-12 rounded-full mx-auto mb-3 object-cover"
+    />
+    <p className="text-gray-400 italic">{testimonials[prev].text}</p>
+    <p className="mt-2 font-semibold">{testimonials[prev].name}</p>
+  </div>
 
-          {/* IMAGE */}
-          <img
-            src={testimonials[index].image}
-            className="w-16 h-16 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow"
-          />
+  {/* CENTER */}
+  <div className=" font-bold px-10 py-12 text-center max-w-md z-10 transition-all duration-500">
 
-          {/* QUOTE */}
-          <div className="text-yellow-500 text-5xl mb-4">“</div>
+    {/* IMAGE */}
+    <img
+      src={testimonials[index].image}
+      className="w-16 h-16 rounded-full mx-auto mb-4 object-cover border-4 border-white shadow"
+    />
 
-          <p className="text-gray-800 font-medium leading-relaxed">
-            {testimonials[index].text}
-          </p>
+    {/* QUOTE */}
+   
 
-          <p className="mt-6 font-bold">{testimonials[index].name}</p>
-          <p className="text-sm text-gray-500">{testimonials[index].role}</p>
+    <p className="text-gray-800 font-medium leading-relaxed">
+      {testimonials[index].text}
+    </p>
 
-          <div className="text-yellow-500 text-5xl mt-4">”</div>
-        </div>
+    <p className="mt-6 font-bold">{testimonials[index].name}</p>
+    <p className="text-sm text-gray-500">{testimonials[index].role}</p>
 
-        {/* RIGHT */}
-        <div className="absolute right-0 w-1/3 opacity-30 scale-90 text-center px-4">
-          <img
-            src={testimonials[next].image}
-            className="w-12 h-12 rounded-full mx-auto mb-3 object-cover"
-          />
-          <p className="text-gray-400 italic">{testimonials[next].text}</p>
-          <p className="mt-2 font-semibold">{testimonials[next].name}</p>
-        </div>
+  </div>
 
-      </div>
+  {/* RIGHT */}
+  <div className="absolute right-0 w-1/3 opacity-30 scale-90 text-center px-4">
+    <img
+      src={testimonials[next].image}
+      className="w-12 h-12 rounded-full mx-auto mb-3 object-cover"
+    />
+    <p className="text-gray-400 italic">{testimonials[next].text}</p>
+    <p className="mt-2 font-semibold">{testimonials[next].name}</p>
+  </div>
 
-      {/* DOTS */}
-      <div className="flex gap-3 mt-8">
-        {testimonials.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setIndex(i)}
-            className={`w-3 h-3 rounded-full ${
-              i === index ? "bg-black scale-125" : "bg-gray-400"
-            } transition`}
-          />
-        ))}
-      </div>
-    </div>
+</div>
+
+{/* DOTS */}
+<div className="flex gap-3 mt-8">
+  {testimonials.map((_, i) => (
+    <button
+      key={i}
+      onClick={() => setIndex(i)}
+      className={`w-3 h-3 rounded-full ${
+        i === index ? "bg-black scale-125" : "bg-gray-400"
+      } transition`}
+    />
+  ))}
+</div>
+</div>
+ 
+  
   );
 }

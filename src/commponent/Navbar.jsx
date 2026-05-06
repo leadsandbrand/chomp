@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`z-50 flex items-center justify-between px-4 md:px-12 lg:px-[80px] h-[70px] md:h-[80px] font-oswald text-black w-full transition-all duration-500 bg-white ${
+      className={`z-50 flex items-center gap-[285px] px-4 md:px-16 lg:px-[80px] h-[70px] md:h-[80px] font-oswald text-black w-full transition-all duration-500 bg-white ${
         fixedNav ? "fixed top-0 left-0 shadow-md" : "absolute top-0 left-0"
       } ${show ? "translate-y-0" : "-translate-y-full"}`}
     >
@@ -38,22 +38,22 @@ export default function Navbar() {
       <img
         src="/logochomp.png"
         alt="Logo"
-        className="w-24 md:w-32 object-contain cursor-pointer pl-2"
+        className="w-24 md:w-32 object-contain cursor-pointer  ml-8"
       />
 
       {/* Desktop Menu */}
       <nav className="hidden md:flex gap-8 text-sm font-semibold">
         <Link to="/" className="hover:text-[#d97063] transition">
-          HOME +
+          HOME 
         </Link>
         <Link to="/shop" className="hover:text-[#d97063] transition">
-          MENU +
+          MENU 
         </Link>
         <Link to="/work" className="hover:text-[#d97063] transition">
-          HOW IT WORK +
+          HOW IT WORK 
         </Link>
         <Link to="/contact" className="hover:text-[#d97063] transition">
-          ORDER NOW +
+          ORDER NOW 
         </Link>
       </nav>
 
@@ -62,9 +62,7 @@ export default function Navbar() {
         <span className="cursor-pointer hover:text-[#d97063]">
           Sign In
         </span>
-        <span className="cursor-pointer hover:text-[#d97063]">
-          Cart 0
-        </span>
+       
       </div>
 
       {/* Hamburger (Mobile) */}

@@ -1,87 +1,238 @@
 import React from "react";
-import { MapPin, Mail, Phone} from "lucide-react";
 
-export default function Footer() {
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaDribbble,
+  FaMapMarkerAlt,
+  FaClock,
+  FaEnvelope,
+} from "react-icons/fa";
+
+const Footer = () => {
   return (
-    <footer className="bg-[#d97063] text-white font-oswald">
+    <footer className="relative overflow-hidden bg-[#d9766a] text-white mt-22">
 
-      <div className="px-4 md:px-12 lg:px-[80px] py-16">
+   
+    
 
-        {/* TOP TEXT */}
-        <div className="text-center mb-12 max-w-2xl mx-auto">
-          <p className="text-lg md:text-xl font-semibold">
-            Our food is prepared and delivered with ❤️ in Bhopal.
-          </p>
+  
+      {/* MAIN CONTENT */}
+      <div
+        className="
+          relative z-20
+          px-6 sm:px-10 md:px-16 lg:px-24
+       pt-10
+          pb-10
+        "
+      >
+
+        {/* TOP CONTACT ROW */}
+        <div
+          className="
+            grid grid-cols-1 md:grid-cols-4
+            gap-8
+           pb-10 pl-4
+            border-b border-black
+           
+          "
+        >
+
+          {/* LOGO */}
+          <div>
+            <img src="/logochomp.white.png" className=" h-[50px] w-[100px]"/>
+          </div>
+
+          {/* ADDRESS */}
+     
+          {/* TIMING */}
+   
+
+          {/* EMAIL */}
+       
+
         </div>
 
-        {/* GRID */}
-        <div className="grid md:grid-cols-3 gap-10">
+        {/* MIDDLE SECTION */}
+        <div
+          className="
+            grid grid-cols-1 md:grid-cols-4
+            gap-12
+            pt-14
+          "
+        >
 
-          {/* CONTACT */}
+          {/* LEFT TEXT */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Get in touch</h3>
 
-            <div className="space-y-3 text-sm md:text-base">
+            <h2 className="text-3xl font-bold leading-tight">
+            BHOPAL'S FIRST <br />
+              FRESH FOOD KITCHEN <br />
+              FOR PETS.
+            </h2>
 
-              <div className="flex gap-3 items-start">
-                <MapPin size={18} />
-                <p>
-                  B/136, Mahakali Society, Trilanga,<br />
-                  Bhopal 462039
-                </p>
-              </div>
+            {/* <p className="text-gray-300 mt-5 leading-relaxed">
+              We’ll help you find healthy fresh food that is right for your pet.
+              Freshly cooked meals made with real ingredients and zero compromise.
+            </p> */}
 
-              <div className="flex gap-3 items-center">
-                <Phone size={18} />
-                <p>+91 91091 17355</p>
-              </div>
+         
 
-              <div className="flex gap-3 items-center">
-                <Mail size={18} />
-                <p>connect@getchomp.in</p>
-              </div>
-
-            </div>
           </div>
 
-          {/* LINKS */}
+          {/* PRODUCTS */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
 
-            <ul className="space-y-3 text-sm md:text-base">
-              <li className="hover:underline cursor-pointer">
-                Privacy Policy
-              </li>
-              <li className="hover:underline cursor-pointer">
-                Terms of Use
-              </li>
+            <h3 className="font-bold text-lg mb-5">
+              OUR PRODUCTS
+            </h3>
+
+            <ul className="space-y-3 text-gray-300 cursor-pointer">
+              <li><a href="/shop#chicken">
+     Chicken Meals
+</a></li>
+
+              <li><a href="/shop#egg">
+        egg Meals
+</a></li>
+
+
+
+
+              <li><a href="/shop#soya">
+     soya Meals
+</a></li>
+              <li><a href="/shop#paneer">
+      paneer Meals
+</a></li>
+             
             </ul>
+
           </div>
 
-          {/* SOCIAL */}
+          {/* COMMUNITY */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Follow us</h3>
 
-            <a
-              href="https://instagram.com/lets.chomp"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 hover:underline"
-            >
-              {/* <Instagram size={18} /> */}
-              @lets.chomp
-            </a>
+            <h3 className="font-bold text-lg mb-5">
+              COMMUNITY
+            </h3>
+
+            <ul className="space-y-3 text-gray-300">
+              <li>News & Stories</li>
+              <li>Recipes</li>
+              <li>Our Story</li>
+              <li>Pet Wellness</li>
+              <li>Blogs</li>
+            </ul>
+
+          </div>
+
+          {/* GET IN TOUCH */}
+          <div>
+
+            <h3 className="font-bold text-lg mb-5">
+              GET IN TOUCH
+            </h3>
+
+            <ul className="space-y-3 text-gray-300">
+              <li>  <div className="flex items-start gap-3">
+
+<FaEnvelope className="text-black mt-1 text-[18px]" />
+
+<div>
+ 
+<p className="font-semibold">
+                Email Us
+              </p>
+
+  <p className="text-sm text-gray-300">
+  connect@getchomp.in
+  </p>
+</div>
+
+</div></li>
+              <li> <div className="flex items-start gap-3">
+
+<FaMapMarkerAlt className="text-black mt-1 text-[20px]" />
+
+<div>
+  <p className="font-semibold">
+    Bhopal, Madhya Pradesh
+  </p>
+
+  <p className="text-sm text-gray-300">
+    Fresh meals delivered daily
+  </p>
+</div>
+
+</div>
+</li>
+              <li>      <div className="flex items-start gap-3">
+
+<FaClock className="text-black mt-1 text-[18px]" />
+
+<div>
+  <p className="font-semibold">
+    Mon To Sun
+  </p>
+
+  <p className="text-sm text-gray-300">
+    10:00 AM to 8:00 PM
+  </p>
+</div>
+
+</div>
+</li>
+              {/* <li>Privacy Policy</li>
+              <li>Terms & Conditions</li> */}
+            </ul>
 
           </div>
 
         </div>
 
         {/* BOTTOM */}
-        <div className="mt-12 border-t border-white/30 pt-6 text-center text-sm">
-          © {new Date().getFullYear()} Chomp. All rights reserved.
+        <div
+          className="
+            flex flex-col md:flex-row
+            justify-between
+            items-center
+            gap-6
+            pt-14
+          "
+        >
+
+          <p className="text-gray-400 text-sm">
+            Copyright © 2025 Chomp. All rights reserved.
+          </p>
+
+          {/* SOCIAL ICONS */}
+          <div className="flex items-center gap-4">
+
+            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
+              <FaFacebookF size={16} />
+            </div>
+
+            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
+              <FaTwitter size={16} />
+            </div>
+
+            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
+              <FaInstagram size={16} />
+            </div>
+
+            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
+              <FaDribbble size={16} />
+            </div>
+
+          </div>
+
         </div>
 
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
