@@ -33,8 +33,8 @@ export default function Testimonial() {
 <div className="w-full h-screen flex flex-col items-center justify-center bg-white  mt-9">
 
 {/* TITLE */}
-<h1 className="text-3xl ">Don’t just take our word for it. </h1>
-<p className="text-gray-500 mb-6 text-center">
+<h1 className="text-5xl font-bold text-[#d97063] leading-tight  font-oswald ">Don’t just take our word for it. </h1>
+<p  className="mt-8 md:mt-6 text-sm md:text-lg font-reyes leading-relaxed">
   Testimonials & Reviews – What our customers are saying.....
 </p>
 
