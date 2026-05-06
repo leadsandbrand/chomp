@@ -49,7 +49,7 @@ export default function ProductAdvantages() {
 
       {/* Heading */}
       <div className="text-center relative z-10">
-        <h2 className="text-5xl font-bold text-black leading-tight  font-oswald ">
+        <h2 className="text-5xl font-bold text-[#d97063] leading-tight  font-oswald ">
         Why Chomp?
         </h2>
 
@@ -127,7 +127,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
      
       </div>
       <div className="flex justify-center pb-6 py-33">
-  <div className="w-[90%] md:w-[83%] h-[1px] bg-black"></div>
+  <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
 </div>
     </section>
   );

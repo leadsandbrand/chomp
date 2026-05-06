@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="relative overflow-hidden bg-[#d9766a] text-white mt-22">
+    <footer className="relative overflow-hidden bg-[#d9766a] text-white mt-12">
 
    
     
@@ -34,14 +34,14 @@ const Footer = () => {
             grid grid-cols-1 md:grid-cols-4
             gap-8
            pb-10 pl-4
-            border-b border-black
+            border-b border-white
            
           "
         >
 
           {/* LOGO */}
           <div>
-            <img src="/logochomp.white.png" className=" h-[50px] w-[100px]"/>
+            <img src="/logochomp.white.png"   className="w-24 md:w-32 object-contain cursor-pointer"/>
           </div>
 
           {/* ADDRESS */}
@@ -88,23 +88,23 @@ const Footer = () => {
               OUR PRODUCTS
             </h3>
 
-            <ul className="space-y-3 text-gray-300 cursor-pointer">
+            <ul className="space-y-3 text-white cursor-pointer">
               <li><a href="/shop#chicken">
      Chicken Meals
 </a></li>
 
               <li><a href="/shop#egg">
-        egg Meals
+        Egg Meals
 </a></li>
 
 
 
 
               <li><a href="/shop#soya">
-     soya Meals
+     Soya Meals
 </a></li>
               <li><a href="/shop#paneer">
-      paneer Meals
+      Paneer Meals
 </a></li>
              
             </ul>
@@ -118,7 +118,7 @@ const Footer = () => {
               COMMUNITY
             </h3>
 
-            <ul className="space-y-3 text-gray-300">
+            <ul className="space-y-3 text-white">
               <li>News & Stories</li>
               <li>Recipes</li>
               <li>Our Story</li>
@@ -135,10 +135,10 @@ const Footer = () => {
               GET IN TOUCH
             </h3>
 
-            <ul className="space-y-3 text-gray-300">
+            <ul className="space-y-3 text-white">
               <li>  <div className="flex items-start gap-3">
 
-<FaEnvelope className="text-black mt-1 text-[18px]" />
+<FaEnvelope className="text-white mt-1 text-[18px]" />
 
 <div>
  
@@ -146,7 +146,7 @@ const Footer = () => {
                 Email Us
               </p>
 
-  <p className="text-sm text-gray-300">
+  <p className="text-sm text-white">
   connect@getchomp.in
   </p>
 </div>
@@ -154,14 +154,14 @@ const Footer = () => {
 </div></li>
               <li> <div className="flex items-start gap-3">
 
-<FaMapMarkerAlt className="text-black mt-1 text-[20px]" />
+<FaMapMarkerAlt className="text-white mt-1 text-[20px]" />
 
 <div>
   <p className="font-semibold">
     Bhopal, Madhya Pradesh
   </p>
 
-  <p className="text-sm text-gray-300">
+  <p className="text-sm text-white">
     Fresh meals delivered daily
   </p>
 </div>
@@ -170,14 +170,15 @@ const Footer = () => {
 </li>
               <li>      <div className="flex items-start gap-3">
 
-<FaClock className="text-black mt-1 text-[18px]" />
+<FaClock className="text-white
+ mt-1 text-[18px]" />
 
 <div>
   <p className="font-semibold">
     Mon To Sun
   </p>
 
-  <p className="text-sm text-gray-300">
+  <p className="text-sm text-white">
     10:00 AM to 8:00 PM
   </p>
 </div>
@@ -203,7 +204,7 @@ const Footer = () => {
           "
         >
 
-          <p className="text-gray-400 text-sm">
+          <p className="text-white text-sm">
             Copyright © 2025 Chomp. All rights reserved.
           </p>
 

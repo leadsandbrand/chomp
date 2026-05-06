@@ -30,10 +30,10 @@ export default function Testimonial() {
   return (
      
 
-<div className="w-full h-screen flex flex-col items-center justify-center bg-white  mt-30 pb-10">
+<div className="w-full h-screen flex flex-col items-center justify-center bg-white  mt-9">
 
 {/* TITLE */}
-<h1 className="text-3xl">Don’t just take our word for it. </h1>
+<h1 className="text-3xl ">Don’t just take our word for it. </h1>
 <p className="text-gray-500 mb-6 text-center">
   Testimonials & Reviews – What our customers are saying.....
 </p>

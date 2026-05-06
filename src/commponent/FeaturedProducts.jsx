@@ -56,12 +56,12 @@ export default function FeaturedProducts() {
           <div className="max-w-[900px] w-full">
 
             {/* HEADING */}
-            <h1 className="text-2xl md:text-3xl font-oswald font-bold text-black">
+            <h1 className="text-5xl md:text-5xl font-oswald font-bold  text-[#d97063]">
               THE MENU
             </h1>
 
             {/* DESCRIPTION */}
-            <p className="mt-8 md:mt-6 text-sm md:text-lg font-reyes text-[#d97063] font-bold leading-relaxed">
+            <p className="mt-8 md:mt-6 text-sm md:text-lg font-reyes leading-relaxed">
               Wholesome, freshly cooked meals of proteins, carbohydrates
               <br className="hidden md:block" />
               fibre, essential fats and micronutrients.
@@ -153,7 +153,7 @@ export default function FeaturedProducts() {
 
       </section>
       <div className="flex justify-center pb-6  py-31 ">
-  <div className="w-[83%] md:w-[83%] h-[1px] bg-black"></div>
+  <div className="w-[83%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
 </div>
     </div>
   );

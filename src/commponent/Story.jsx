@@ -27,12 +27,14 @@ const Story = () => {
 {/* TEXT */}
 <div className="w-full lg:w-[52%] max-w-2xl pr-27 mt-5">
 
-  <h2 className="text-3xl md:text-5xl font-bold">
+  <h2 className="text-5xl md:text-5xl font-bold text-[#d97063]">
     How Chomp got started
   </h2>
 
-  <div className="w-14 h-1 bg-[#d97063] mt-4 mb-6"></div>
-
+  {/* <div className=" flex  justify-start items-center mt-2"> 
+        <img src="/chompicons.png" className="  h-10 w-10" />
+        </div> */}
+<br></br>
   <p className="text-gray-700 mb-4">
     From one pet parent to another —
   </p>
@@ -64,7 +66,7 @@ Please note – we cook fresh each day. We do request that you give us at least 
  </div>
 
 <div className="flex justify-center  ">
-  <div className="w-[90%] md:w-[83%] h-[1px] bg-black"></div>
+  <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
 </div>
 
 

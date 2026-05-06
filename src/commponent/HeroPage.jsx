@@ -118,7 +118,7 @@ export default function HeroPage() {
               sm:w-[300px]
               md:w-[360px]
               lg:w-screen
-              xl:w-[420px]
+              xl:w-[600px]
               object-contain
               drop-shadow-2xl
               pr-4
@@ -129,8 +129,8 @@ export default function HeroPage() {
 
       </section>
       {/* Bottom Line */}
-      <div className="flex justify-center pb-6">
-  <div className="w-[90%] md:w-[83%] h-[1px] bg-black"></div>
+      <div className="flex justify-center ">
+  <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
 </div>
     </div>
   );
