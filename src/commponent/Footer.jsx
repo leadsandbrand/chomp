@@ -31,8 +31,9 @@ const Footer = () => {
         {/* TOP CONTACT ROW */}
         <div
           className="
-            grid grid-cols-1 md:grid-cols-4
-            gap-8
+            grid grid-cols-1 md:grid-cols-2
+            md:grid-cols-[20%_80%]
+
            pb-10 pl-4
             border-b border-white
            
@@ -43,9 +44,9 @@ const Footer = () => {
           <div>
             <img src="/logochomp.white.png"   className="w-24 md:w-32 object-contain cursor-pointer"/>
           </div>
-
-          {/* ADDRESS */}
-     
+              
+              <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤️ in Bhopal.</h1></div>
+          
           {/* TIMING */}
    
 
@@ -55,7 +56,7 @@ const Footer = () => {
         </div>
 
         {/* MIDDLE SECTION */}
-        <div
+        <div 
           className="
             grid grid-cols-1 md:grid-cols-4
             gap-12
@@ -64,15 +65,20 @@ const Footer = () => {
         >
 
           {/* LEFT TEXT */}
-          <div>
+          <div >
 
             <h2 className="text-3xl font-bold leading-tight">
             BHOPAL'S FIRST <br />
               FRESH FOOD KITCHEN <br />
               FOR PETS.
             </h2>
-
-            {/* <p className="text-gray-300 mt-5 leading-relaxed">
+  
+     
+       <div  className=" mt-4 cursor-pointer">
+       <p>Privacy policy </p>
+       <p>Terms of use </p>
+       </div>
+              {/* <p className="text-gray-300 mt-5 leading-relaxed">
               We’ll help you find healthy fresh food that is right for your pet.
               Freshly cooked meals made with real ingredients and zero compromise.
             </p> */}
@@ -157,13 +163,13 @@ const Footer = () => {
 <FaMapMarkerAlt className="text-white mt-1 text-[20px]" />
 
 <div>
-  <p className="font-semibold">
-    Bhopal, Madhya Pradesh
+  <p className="">
+  Kitchen: B/136, Mahakali Society, Trilanga, , Bhopal 462039
+
+
   </p>
 
-  <p className="text-sm text-white">
-    Fresh meals delivered daily
-  </p>
+ 
 </div>
 
 </div>
