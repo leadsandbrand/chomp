@@ -58,7 +58,7 @@ export default function Navbar() {
       </nav>
 
       {/* Right Side (Desktop) */}
-      <div className="hidden md:flex gap-6 text-sm font-semibold items-center">
+      <div className="hidden md:flex gap-6 text-sm font-semibold items-center mr-8">
         <span className="cursor-pointer hover:text-[#d97063]">
           Sign In
         </span>

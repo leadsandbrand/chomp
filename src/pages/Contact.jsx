@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "../commponent/Navbar";
 import Footer from "../commponent/Footer";
 import Footer1 from "../commponent/Footer1";
+import { FaWhatsapp } from "react-icons/fa";
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -27,7 +28,8 @@ export default function ContactPage() {
         </h2>
 
         <p className="text-gray-600 mt-4 text-base md:text-lg">
-          Fill in the form below and we'll be in touch to answer any questions and get your first delivery sorted. It really is that simple.
+        Fill in the form below. We’ll contact you to answer any questions and get your first delivery sorted. It really is that simple.
+
         </p>
       </div>
 
@@ -37,7 +39,7 @@ export default function ContactPage() {
 <div className="grid lg:grid-cols-2">
 
   {/* LEFT FORM */}
-  <div className="p-6 md:p-10 lg:p-14">
+  <div className="p-6 md:p-10 lg:p-7">
 
     {!submitted ? (
 
@@ -56,7 +58,7 @@ export default function ContactPage() {
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -79,7 +81,7 @@ export default function ContactPage() {
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl 
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -101,7 +103,7 @@ export default function ContactPage() {
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -119,11 +121,11 @@ export default function ContactPage() {
 
           <input
             type="text"
-            placeholder="What do we call you?"
+            placeholder="Any dietary needs? Activity levels?"
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -146,7 +148,7 @@ export default function ContactPage() {
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -165,11 +167,11 @@ export default function ContactPage() {
 
           <input
             type="email"
-            placeholder="Email address"
+            placeholder="(Optional)"
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -191,7 +193,7 @@ export default function ContactPage() {
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -209,11 +211,11 @@ export default function ContactPage() {
 
           <input
             type="text"
-            placeholder="What do we call you?"
+            placeholder="Any questions or just looking to find out more?"
             className="
               w-full
               border border-gray-200
-              p-3 rounded-xl
+              p-1 rounded-xl
               outline-none
               placeholder:text-sm
               focus:border-[#d97063]
@@ -231,7 +233,7 @@ export default function ContactPage() {
               bg-[#d97063]
               text-white
               font-semibold
-              px-10 py-4
+              px-10 py-3
               rounded-full
               hover:scale-105
               transition
@@ -300,7 +302,63 @@ export default function ContactPage() {
           Tap here to message us on WhatsApp!
         </a>
       </div> */}
-  
+  <div className="mt-8">
+
+<h3 className="text-2xl md:text-3xl font-oswald font-bold text-black">
+  Rather just chat? We get it.
+</h3>
+
+<a
+  href="https://wa.me/919109117355"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    inline-flex
+    items-center
+    gap-3
+    mt-4
+    bg-[#d97063]
+    text-white
+    font-semibold
+    px-6
+    py-3
+    rounded-full
+    hover:scale-105
+    transition
+  "
+>
+  <FaWhatsapp size={22} />
+
+  Tap here to message us on WhatsApp!
+</a>
+
+</div>
+
+
+
+<a
+  href="https://wa.me/919109117355"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    fixed
+    bottom-6
+    right-6
+    w-16
+    h-16
+    rounded-full
+    bg-[#25D366]
+    flex
+    items-center
+    justify-center
+    shadow-2xl
+    hover:scale-110
+    transition
+    z-50
+  "
+>
+  <FaWhatsapp className="text-white text-4xl" />
+</a>
     </section>
   
    <Footer1/>

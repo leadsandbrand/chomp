@@ -3,7 +3,9 @@ import { useState } from "react";
 const faqs = [
   {
     q: "Is Chomp suitable for all dog breeds?",
-    a: "Yes! All four of our current recipes are formulated for adult dogs across breeds. If you have a puppy or a senior dog with specific needs, message us on WhatsApp and we'll advise you personally."
+    a: "Yes! All four of our current recipes are formulated for adult dogs across breeds. If you have a puppy or a senior dog with specific needs, message us on WhatsApp and we'll advise you personally.\n\If you have any special dietary requirements for your pup, please contact us. We will try our best to customise as per your dog’s needs.",
+
+
   },
   {
     q: "What's in a 300g pack?",
@@ -25,10 +27,7 @@ const faqs = [
     q: "How do I transition my dog to Chomp?",
     a: "We recommend a 7-day transition:\nDay 1: 75% old diet, 25% Chomp\nDay 2-4: 50% old diet, 50% Chomp\nDay 5-6: 25% old diet, 75% Chomp\nDay 7 onwards: Chomp all the way!\n\nEvery dog adapts differently—go at their pace."
   },
-  {
-    q: "Can I cancel my subscription?",
-    a: "Of course. No drama, no hoops. Just message us on WhatsApp and we'll sort it. Note: we don’t offer refunds."
-  },
+  
   {
     q: "Can I switch plans?",
     a: "Yes! Just let us know in advance via WhatsApp and we'll update your deliveries."
@@ -42,10 +41,10 @@ export default function FAQPage(){
     <section className="bg-[#f9f9f9]   px-4 md:px-12 lg:px-[80px]">
 
       {/* Heading */}
-      <div className="text-center mb-16 max-w-2xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black">
+  <div className="text-center mb-16 te mx-auto">
+        <h2 className="text-2xl md:text-5xl font-oswald font-bold text-black">
           Questions? We've got answers.
-        </h2>
+        </h2> 
 
         <p className="text-gray-600 mt-4">
           And if not,{" "}

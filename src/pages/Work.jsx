@@ -108,7 +108,7 @@ const Work = () => {
   </h3>
 
   <p className="text-gray-600 mb-12">
-    Three simple steps to bring fresh food at your door.
+  get fresh food, not bring
   </p>
 
 </div>

@@ -17,34 +17,31 @@ export default function HeroPage() {
           grid grid-cols-1 md:grid-cols-2
           items-center
           min-h-screen
-          px-6 sm:px-10 md:px-16 lg:px-28
+          px-2 sm:px-10 md:px-6 lg:px-6
           pt-28 md:pt-10
-       
-          gap-10 md:gap-4
+          mt-8
+           md:gap-4
         "
       >
 
         {/* LEFT CONTENT */}
-        <div className="flex justify-center md:justify-start order-2 md:order-1">
-
+        <div className="flex justify-start   mt-3 order-2 md:order-1  pl-2 md:pl-21 ">
+      
           <div className="max-w-lg text-center md:text-left">
 
             {/* HEADING */}
             <h1
               className="
-                text-[28px]
-                sm:text-[36px]
-                md:text-[42px]
-                lg:text-[48px]
+                text-4xl md:text-5xl font-bold 
                 leading-tight
                 font-oswald
                 font-bold
                text-[#d97063]
               "
             >
-              BHOPAL'S FIRST <br />
-              FRESH FOOD KITCHEN <br />
-              FOR PETS.
+               Bhopal's first  <br />
+               Fresh Food Kitchen<br />
+              For Pets
             </h1>
 
             {/* SUBTEXT */}
@@ -59,15 +56,15 @@ export default function HeroPage() {
                 leading-relaxed
               "
             >
-              <span className="block">
-                <span>REAL FOOD</span> |
-                <span > NO PRESERVATIVES</span> |
-                <span > NO FILLERS</span> |
-                <span > NO COMPROMISE</span>
+              <span className="block italic">
+                <span> Real Food </span> |
+                <span >  No Preservatives</span> |
+                <span > No Fillers</span> |
+                <span >  No Compromise</span>
               </span>
 
-              <span className="block mt-2">
-                DELIVERED TO YOUR DOOR
+              <span className="block mt-1 italic">
+               Delivered To Your Door 
               </span>
             </p>
 
@@ -91,8 +88,9 @@ export default function HeroPage() {
                 Order Now
               </button>
 
-              <p className="text-xs text-gray-500 mt-3">
-                Monthly & fortnightly plans available
+              <p className="text-sm text-black mt-3">
+              Trial packs, monthly & fortnightly subscription plans available.
+
               </p>
 
             </div>
@@ -104,24 +102,24 @@ export default function HeroPage() {
         <div
           className="
             flex
-            justify-center md:justify-end
+            justify-center md:justify-start
             items-center
             order-1 md:order-2
           "
         >
 
           <img
-            src="/home-photo.png"
+            src="/homefinal.png"
             alt="Dog Food"
             className="
               w-[240px]
               sm:w-[300px]
               md:w-[360px]
               lg:w-screen
-              xl:w-[600px]
+              xl:w-[500px]
               object-contain
               drop-shadow-2xl
-              pr-4
+              pr- 
             "
           />
 
@@ -130,7 +128,7 @@ export default function HeroPage() {
       </section>
       {/* Bottom Line */}
       <div className="flex justify-center ">
-  <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
+  <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063] mt-[-26PX] "></div>
 </div>
     </div>
   );

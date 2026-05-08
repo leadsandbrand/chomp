@@ -30,13 +30,13 @@ export default function Testimonial() {
   return (
      
 
-<div className="w-full h-screen flex flex-col items-center justify-center bg-white  mt-9">
+<div className="w-full h-screen flex flex-col items-center justify-center bg-white  mt-4">
 
 {/* TITLE */}
 <h1 className="text-5xl font-bold text-[#d97063] leading-tight  font-oswald ">Don’t just take our word for it. </h1>
-<p  className="mt-8 md:mt-6 text-sm md:text-lg font-reyes leading-relaxed">
+{/* <p  className="mt-8 md:mt-6 text-sm md:text-lg font-reyes leading-relaxed">
   Testimonials & Reviews – What our customers are saying.....
-</p>
+</p> */}
 
 {/* CARDS */}
 <div className="relative w-full max-w-5xl flex items-center justify-center">

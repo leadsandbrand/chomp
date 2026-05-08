@@ -9,6 +9,7 @@ import Footer from '../commponent/Footer'
 import Story from '../commponent/Story'
 import Work from './Work'
 import Testimonial from '../commponent/Testimonials'
+import Howit from '../commponent/Howit'
 const Homes = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Homes = () => {
     
        {/* <FAQPage/> */}
      <Story/>
-    
+    <Howit/>
    <Testimonial/>
        
            <Footer/>

@@ -25,43 +25,38 @@ const Story = () => {
 </div>
 
 {/* TEXT */}
-<div className="w-full lg:w-[52%] max-w-2xl pr-27 mt-5">
+<div className="w-full lg:w-[52%] max-w-2xl pr-27 mt-5  ">
 
-  <h2 className="text-5xl md:text-5xl font-bold text-[#d97063]">
-    How Chomp got started
+  <h2 className="text-4xl md:text-5xl font-bold text-[#d97063]">
+    How Chomp Got Started
   </h2>
 
   {/* <div className=" flex  justify-start items-center mt-2"> 
         <img src="/chompicons.png" className="  h-10 w-10" />
         </div> */}
 <br></br>
-  <p className="text-gray-700 mb-4">
-    From one pet parent to another —
+  <p className="text-gray-700 mb-4 italic font-bold">
+    From one pet parent to another -
   </p>
 
   <p className="text-gray-700 mb-4">
-  I’ve had pets for over 20 years with a deep interest in animal welfare and conservation. You'd think I had canine nutrition figured out. 
-   <br></br>
-   Then I sat down to read the back of my dog’s kibble packet. I couldn't pronounce half the ingredients. I didn't know what the other half even was. That’s when my deep dive began!
-  <br></br>
-  I started cooking for her — fresh chicken, eggs, a bit of paneer. She went absolutely mad for it. Her coat looks better. She has more energy. And honestly? She just seems happier.
+    <p className='mb-2'>  I’ve had pets for over 20 years with a deep interest in animal welfare and conservation. You'd think I had canine nutrition figured out. </p>
+
+ 
+   
+  <p className='mb-2'> Then I sat down to read the back of my dog’s kibble packet. I couldn't pronounce half the ingredients. I didn't know what the other half even was. That’s when my deep dive began!</p>
+ 
+  I started cooking for her - fresh chicken, eggs, a bit of paneer. She went absolutely mad for it. Her coat looks better. She has more energy. And honestly? She just seems happier.
 Chomp was born out of that simple moment: the realisation that the biggest impact I could make for our best friends was right in my own kitchen. 
-<br></br>
-<br></br>
-That's how Chomp started — in a kitchen in Bhopal, with one very excited dog as our first taste-tester.  Now, after a lot of research and consultations with experts in the field, we cook fresh meals every single day and deliver to dogs right to your door. 
 
-We're a local kitchen with one mission: Simple food. Happy, healthy dogs. That's it.
+<p className='mt-2'>
+That’s how Chomp started – in a kitchen in Bhopal, with one very happy puppy as our taste tester. Now, after a lot of research and consultations with experts in the field, we cook fresh meals every single day and deliver to dogs right to your door. 
 
-  </p>
-
-  <p className="font-semibold">
-  How it Works
-  </p>
-  <p className="text-gray-700 mb-4"> 
-  We offer multiple subscription plans for your convenience. If you’re still deciding, you can also choose our trial packs and see how your dog responds.
-Please note – we cook fresh each day. We do request that you give us at least 24 hour notice for your order!
+We're a local kitchen with one mission: Simple food. Happy, healthy dogs. That's it.</p>
 
   </p>
+
+ 
 </div>
  </div>
 

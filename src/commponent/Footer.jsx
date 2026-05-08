@@ -8,7 +8,12 @@ import {
   FaMapMarkerAlt,
   FaClock,
   FaEnvelope,
+
 } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -58,8 +63,8 @@ const Footer = () => {
         {/* MIDDLE SECTION */}
         <div 
           className="
-            grid grid-cols-1 md:grid-cols-4
-            gap-12
+            grid grid-cols-1 md:grid-cols-3
+            gap-50
             pt-14
           "
         >
@@ -68,16 +73,13 @@ const Footer = () => {
           <div >
 
             <h2 className="text-3xl font-bold leading-tight">
-            BHOPAL'S FIRST <br />
-              FRESH FOOD KITCHEN <br />
-              FOR PETS.
+            Bhopal's first  <br />
+               Fresh Food Kitchen<br />
+              For Pets
             </h2>
   
      
-       <div  className=" mt-4 cursor-pointer">
-       <p>Privacy policy </p>
-       <p>Terms of use </p>
-       </div>
+   
               {/* <p className="text-gray-300 mt-5 leading-relaxed">
               We’ll help you find healthy fresh food that is right for your pet.
               Freshly cooked meals made with real ingredients and zero compromise.
@@ -90,27 +92,36 @@ const Footer = () => {
           {/* PRODUCTS */}
           <div>
 
-            <h3 className="font-bold text-lg mb-5">
-              OUR PRODUCTS
-            </h3>
-
+           
             <ul className="space-y-3 text-white cursor-pointer">
-              <li><a href="/shop#chicken">
-     Chicken Meals
+              <li className=" font-bold"><a href="/shop#chicken">
+              Quick Links
+
 </a></li>
 
               <li><a href="/shop#egg">
-        Egg Meals
+              Menu
+
 </a></li>
 
 
 
 
               <li><a href="/shop#soya">
-     Soya Meals
+              How it works
+
 </a></li>
               <li><a href="/shop#paneer">
-      Paneer Meals
+              Contact US
+
+</a></li>
+<li className=" text-black"><a href="/shop#paneer">
+Privacy policy
+
+</a></li>
+<li className=" text-black"><a href="/shop#paneer">
+Terms of use
+
 </a></li>
              
             </ul>
@@ -118,7 +129,7 @@ const Footer = () => {
           </div>
 
           {/* COMMUNITY */}
-          <div>
+          {/* <div>
 
             <h3 className="font-bold text-lg mb-5">
               COMMUNITY
@@ -132,39 +143,70 @@ const Footer = () => {
               <li>Blogs</li>
             </ul>
 
-          </div>
+          </div> */}
 
           {/* GET IN TOUCH */}
           <div>
 
             <h3 className="font-bold text-lg mb-5">
-              GET IN TOUCH
+               Get In Touch
             </h3>
 
             <ul className="space-y-3 text-white">
-              <li>  <div className="flex items-start gap-3">
+            
+            
+
+            <li>
+  <div className="flex items-center gap-3">
+
+    <FaPhoneAlt className="text-white text-[18px]" />
+
+    <p  className=" pl-2">
+    +91 91091 17355
+    </p>
+
+  </div>
+</li>
+
+              <li>
+                  <div className="flex items-start gap-3">
 
 <FaEnvelope className="text-white mt-1 text-[18px]" />
 
 <div>
  
-<p className="font-semibold">
-                Email Us
-              </p>
 
-  <p className="text-sm text-white">
+
+  <p className="text-sm text-white pl-2">
   connect@getchomp.in
   </p>
 </div>
 
-</div></li>
+</div>
+
+</li>
+          
+<li>
+  <div className="flex items-center gap-3">
+  <IoLogoWhatsapp   className="text-white text-[23px]" />
+  
+
+    <p  className=" pl-2">
+      +91 9876543210
+    </p>
+
+  </div>
+</li>
+
+
               <li> <div className="flex items-start gap-3">
 
-<FaMapMarkerAlt className="text-white mt-1 text-[20px]" />
+<FaMapMarkerAlt className="text-white mt-1 text-[28px]" />
 
 <div>
-  <p className="">
-  Kitchen: B/136, Mahakali Society, Trilanga, , Bhopal 462039
+  <p className=" pl-2">
+  Kitchen: B/136, Mahakali Society, Trilanga, Bhopal 462039
+
 
 
   </p>
@@ -174,23 +216,8 @@ const Footer = () => {
 
 </div>
 </li>
-              <li>      <div className="flex items-start gap-3">
+          
 
-<FaClock className="text-white
- mt-1 text-[18px]" />
-
-<div>
-  <p className="font-semibold">
-    Mon To Sun
-  </p>
-
-  <p className="text-sm text-white">
-    10:00 AM to 8:00 PM
-  </p>
-</div>
-
-</div>
-</li>
               {/* <li>Privacy Policy</li>
               <li>Terms & Conditions</li> */}
             </ul>
@@ -207,31 +234,44 @@ const Footer = () => {
             items-center
             gap-6
             pt-14
+            pr-27
           "
         >
 
-          <p className="text-white text-sm">
-            Copyright © 2025 Chomp. All rights reserved.
+          <p className="text-white  text-sm">
+          Copyright Juniper Collective Pvt. Ltd.
+
           </p>
 
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4">
-
+            
+          <a
+  href="mailto:connect@getchomp.in"
+  className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+>
+  <MdEmail size={18} />
+</a>
             <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
               <FaFacebookF size={16} />
             </div>
 
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaTwitter size={16} />
-            </div>
+           
+         
 
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaInstagram size={16} />
-            </div>
+              <a
+  href="https://instagram.com/lets.chomp"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+>
+  <FaInstagram size={16} />
+</a>
+         
 
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaDribbble size={16} />
-            </div>
+     
+
+         
 
           </div>
 

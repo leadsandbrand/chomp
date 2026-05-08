@@ -5,7 +5,7 @@ export default function ProductAdvantages() {
   const features = [
     {
       title: "Real ingredients",
-      desc: "Chicken, egg, soya, paneer — not mystery powders.",
+      desc: "Chicken, egg, soya, paneer- not mystery powders.",
       icon: "/realingredience.icon.png" ,
       color: "bg-[#d8f1c8]",
     },
@@ -23,7 +23,7 @@ export default function ProductAdvantages() {
     },
     {
       title: "Zero hassle",
-      desc: "Subscribe once, feed forever. Pause anytime",
+      desc: "Subscribe once, feed forever. Pause anytime.",
       icon: "/zerohassel.icon.png",
       color: "bg-[#ffd7cf]",
     },
@@ -53,17 +53,19 @@ export default function ProductAdvantages() {
         Why Chomp?
         </h2>
 
-        <div className=" flex  justify-center items-center mt-2"> 
+        {/* <div className=" flex  justify-center items-center mt-2"> 
         <img src="/chompicons.png" className="  h-10 w-10" />
         </div>
-        
+         */}
    
 
-        <p className="text-gray-500 mt-4 max-w-xl mx-auto text-lg">
+        <p className="text-black mt-4 max-w-xl mx-auto text-lg">
         Because your dog can’t read ingredient labels. But we can!
+        </p>
+        <p className="text-black mt-1 max-w-xl mx-auto text-lg">
 Our Chomp meals are carefully crafted to support better digestion, shinier coats and higher energy levels. 
 
-        </p>
+</p>
       </div>
 
       {/* Main Content */}
@@ -71,25 +73,25 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
         {/* Left Features */}
         <div className="space-y-14">
   {features.slice(0, 2).map((item, index) => (
-    <div key={index} className="flex gap-5 items-start">
-      <div >
+    <div key={index} className="flex gap-5 items-start pl-2">
+      <div  >
         <img
           src={item.icon}
           alt={item.title}
-          className="w-14 h-14 object-contain"
+          className="w-25 h-25 object-contain "
         />
       </div>
 
       <div>
-        <h3 className="text-2xl font-bold text-black">{item.title}</h3>
-        <p className="text-gray-500 mt-2">{item.desc}</p>
+        <h3 className="text-2xl font-bold text-black pt-3">{item.title}</h3>
+        <p className="text-black mt-2">{item.desc}</p>
       </div>
     </div>
   ))}
 </div>
 
         {/* Center Bowl Image */}
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <img
             src="/h1_img-3.png"
             alt="food bowl"
@@ -105,13 +107,13 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
                <img
     src={item.icon}
      alt={item.title}
-  className="w-14 h-14 object-contain"
+  className="w-25 h-25 object-contain"
 />
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-black">{item.title}</h3>
-                <p className="text-gray-500 mt-2">{item.desc}</p>
+                <h3 className="text-2xl font-bold text-black pt-2">{item.title}</h3>
+                <p className="text-gray-500 mt-2 pr-5">{item.desc}</p>
               </div>
             </div>
           ))}
@@ -119,7 +121,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
       </div>
 
       {/* Buttons */}
-      <div className="flex justify-center gap-5 mt-16 relative z-10">
+      <div className="flex justify-center gap-5 mt-16 relative z-10 ml-10">
         <button className="bg-[#d97063] px-8 py-4 rounded-full  text-white  font-bold text-sm hover:scale-105 transition cursor-pointer">
           Order Now 
         </button>

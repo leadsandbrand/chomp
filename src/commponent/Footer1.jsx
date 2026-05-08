@@ -9,7 +9,9 @@ import {
   FaClock,
   FaEnvelope,
 } from "react-icons/fa";
-
+import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 const Footer1 = () => {
   return (
     <footer className="relative overflow-hidden bg-[#d9766a] text-white mt-33">
@@ -18,227 +20,262 @@ const Footer1 = () => {
     
 
   
-      {/* MAIN CONTENT */}
+    {/* MAIN CONTENT */}
+    <div
+      className="
+        relative z-20
+        px-6 sm:px-10 md:px-16 lg:px-24
+     pt-10
+        pb-10
+      "
+    >
+
+      {/* TOP CONTACT ROW */}
       <div
         className="
-          relative z-20
-          px-6 sm:px-10 md:px-16 lg:px-24
-       pt-10
-          pb-10
+          grid grid-cols-1 md:grid-cols-2
+          md:grid-cols-[20%_80%]
+
+         pb-10 pl-4
+          border-b border-white
+         
         "
       >
 
-        {/* TOP CONTACT ROW */}
-        <div
-          className="
-            grid grid-cols-1 md:grid-cols-2
-            md:grid-cols-[20%_80%]
+        {/* LOGO */}
+        <div>
+          <img src="/logochomp.white.png"   className="w-24 md:w-32 object-contain cursor-pointer"/>
+        </div>
+            
+            <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤️ in Bhopal.</h1></div>
+        
+        {/* TIMING */}
+ 
 
-           pb-10 pl-4
-            border-b border-white
-           
-          "
-        >
+        {/* EMAIL */}
+     
 
-          {/* LOGO */}
-          <div>
-            <img src="/logochomp.white.png"   className="w-24 md:w-32 object-contain cursor-pointer"/>
-          </div>
-              
-              <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤️ in Bhopal.</h1></div>
-          
-          {/* TIMING */}
+      </div>
+
+      {/* MIDDLE SECTION */}
+      <div 
+        className="
+          grid grid-cols-1 md:grid-cols-3
+          gap-50
+          pt-14
+        "
+      >
+
+        {/* LEFT TEXT */}
+        <div >
+
+          <h2 className="text-3xl font-bold leading-tight">
+          BHOPAL'S FIRST <br />
+            FRESH FOOD KITCHEN <br />
+            FOR PETS.
+          </h2>
+
    
+ 
+            {/* <p className="text-gray-300 mt-5 leading-relaxed">
+            We’ll help you find healthy fresh food that is right for your pet.
+            Freshly cooked meals made with real ingredients and zero compromise.
+          </p> */}
 
-          {/* EMAIL */}
        
 
         </div>
 
-        {/* MIDDLE SECTION */}
-        <div 
-          className="
-            grid grid-cols-1 md:grid-cols-4
-            gap-12
-            pt-14
-          "
-        >
-
-          {/* LEFT TEXT */}
-          <div >
-
-            <h2 className="text-3xl font-bold leading-tight">
-            BHOPAL'S FIRST <br />
-              FRESH FOOD KITCHEN <br />
-              FOR PETS.
-            </h2>
-  
-     
-       <div  className=" mt-4 cursor-pointer">
-       <p>Privacy policy </p>
-       <p>Terms of use </p>
-       </div>
-              {/* <p className="text-gray-300 mt-5 leading-relaxed">
-              We’ll help you find healthy fresh food that is right for your pet.
-              Freshly cooked meals made with real ingredients and zero compromise.
-            </p> */}
+        {/* PRODUCTS */}
+        <div>
 
          
+          <ul className="space-y-3 text-white cursor-pointer">
+            <li><a href="/shop#chicken">
+            Quick Links
 
-          </div>
-
-          {/* PRODUCTS */}
-          <div>
-
-            <h3 className="font-bold text-lg mb-5">
-              OUR PRODUCTS
-            </h3>
-
-            <ul className="space-y-3 text-white cursor-pointer">
-              <li><a href="/shop#chicken">
-     Chicken Meals
 </a></li>
 
-              <li><a href="/shop#egg">
-        Egg Meals
+            <li><a href="/shop#egg">
+            Menu
+
 </a></li>
 
 
 
 
-              <li><a href="/shop#soya">
-     Soya Meals
+            <li><a href="/shop#soya">
+            How it works
+
 </a></li>
-              <li><a href="/shop#paneer">
-      Paneer Meals
+            <li><a href="/shop#paneer">
+            Contact US
+
 </a></li>
-             
-            </ul>
+<li><a href="/shop#paneer">
+Privacy policy
 
-          </div>
+</a></li>
+<li><a href="/shop#paneer">
+Terms of use
 
-          {/* COMMUNITY */}
-          <div>
+</a></li>
+           
+          </ul>
 
-            <h3 className="font-bold text-lg mb-5">
-              COMMUNITY
-            </h3>
+        </div>
 
-            <ul className="space-y-3 text-white">
-              <li>News & Stories</li>
-              <li>Recipes</li>
-              <li>Our Story</li>
-              <li>Pet Wellness</li>
-              <li>Blogs</li>
-            </ul>
+        {/* COMMUNITY */}
+        {/* <div>
 
-          </div>
+          <h3 className="font-bold text-lg mb-5">
+            COMMUNITY
+          </h3>
 
-          {/* GET IN TOUCH */}
-          <div>
+          <ul className="space-y-3 text-white">
+            <li>News & Stories</li>
+            <li>Recipes</li>
+            <li>Our Story</li>
+            <li>Pet Wellness</li>
+            <li>Blogs</li>
+          </ul>
 
-            <h3 className="font-bold text-lg mb-5">
-              GET IN TOUCH
-            </h3>
+        </div> */}
 
-            <ul className="space-y-3 text-white">
-              <li>  <div className="flex items-start gap-3">
+        {/* GET IN TOUCH */}
+        <div>
+
+          <h3 className="font-bold text-lg mb-5">
+            GET IN TOUCH
+          </h3>
+
+          <ul className="space-y-3 text-white">
+          
+          
+
+          <li>
+<div className="flex items-center gap-3">
+
+  <FaPhoneAlt className="text-white text-[16px]" />
+
+  <p>
+  +91 91091 17355
+  </p>
+
+</div>
+</li>
+
+            <li>
+                <div className="flex items-start gap-3">
 
 <FaEnvelope className="text-white mt-1 text-[18px]" />
 
 <div>
- 
-<p className="font-semibold">
-                Email Us
-              </p>
 
-  <p className="text-sm text-white">
-  connect@getchomp.in
-  </p>
+<p className="font-semibold">
+              Email Us
+            </p>
+
+<p className="text-sm text-white">
+connect@getchomp.in
+</p>
 </div>
 
-</div></li>
-              <li> <div className="flex items-start gap-3">
+</div>
+
+</li>
+        
+<li>
+  <div className="flex items-start gap-3">
+
+    <FaWhatsapp className="text-white mt-1 text-[20px]" />
+
+    <p>+91 9876543210</p>
+
+  </div>
+</li>
+
+
+            <li> <div className="flex items-start gap-3">
 
 <FaMapMarkerAlt className="text-white mt-1 text-[20px]" />
 
 <div>
-  <p className="">
-  Kitchen: B/136, Mahakali Society, Trilanga, , Bhopal 462039
+<p className="">
+Kitchen: B/136, Mahakali Society, Trilanga, Bhopal 462039
 
 
-  </p>
 
- 
+</p>
+
+
 </div>
 
 </div>
 </li>
-              <li>      <div className="flex items-start gap-3">
+        
 
-<FaClock className="text-white
- mt-1 text-[18px]" />
-
-<div>
-  <p className="font-semibold">
-    Mon To Sun
-  </p>
-
-  <p className="text-sm text-white">
-    10:00 AM to 8:00 PM
-  </p>
-</div>
-
-</div>
-</li>
-              {/* <li>Privacy Policy</li>
-              <li>Terms & Conditions</li> */}
-            </ul>
-
-          </div>
-
-        </div>
-
-        {/* BOTTOM */}
-        <div
-          className="
-            flex flex-col md:flex-row
-            justify-between
-            items-center
-            gap-6
-            pt-14
-          "
-        >
-
-          <p className="text-white text-sm">
-            Copyright © 2025 Chomp. All rights reserved.
-          </p>
-
-          {/* SOCIAL ICONS */}
-          <div className="flex items-center gap-4">
-
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaFacebookF size={16} />
-            </div>
-
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaTwitter size={16} />
-            </div>
-
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaInstagram size={16} />
-            </div>
-
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaDribbble size={16} />
-            </div>
-
-          </div>
+            {/* <li>Privacy Policy</li>
+            <li>Terms & Conditions</li> */}
+          </ul>
 
         </div>
 
       </div>
-    </footer>
+
+      {/* BOTTOM */}
+      <div
+        className="
+          flex flex-col md:flex-row
+          justify-between
+          items-center
+          gap-6
+          pt-14
+          pr-27
+        "
+      >
+
+        <p className="text-white  text-sm">
+        Copyright Juniper Collective Pvt. Ltd.
+
+        </p>
+
+        {/* SOCIAL ICONS */}
+        <div className="flex items-center gap-4">
+          
+        <a
+href="mailto:connect@getchomp.in"
+className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+>
+<MdEmail size={18} />
+</a>
+          <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
+            <FaFacebookF size={16} />
+          </div>
+
+         
+       
+
+            <a
+href="https://instagram.com/lets.chomp"
+target="_blank"
+rel="noopener noreferrer"
+className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+>
+<FaInstagram size={16} />
+</a>
+       
+
+   
+
+       
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
   );
 };
 
