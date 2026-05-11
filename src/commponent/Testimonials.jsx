@@ -30,7 +30,7 @@ export default function Testimonial() {
   return (
      
 
-<div className="w-full h-screen flex flex-col items-center justify-center bg-white  mt-4">
+<div className="w-full h-screen flex flex-col items-center justify-center bg-white ">
 
 {/* TITLE */}
 <h1 className="text-5xl font-bold text-[#d97063] leading-tight  font-oswald ">Don’t just take our word for it. </h1>
