@@ -16,7 +16,7 @@ export default function HeroPage() {
           relative z-30
           grid grid-cols-1 md:grid-cols-2
           items-center
-          min-h-screen
+        
           px-2 sm:px-10 md:px-6 lg:px-6
           pt-28 md:pt-10
           mt-8
@@ -128,7 +128,7 @@ export default function HeroPage() {
       </section>
       {/* Bottom Line */}
       <div className="flex justify-center ">
-  <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063] mt-[-26PX] "></div>
+  <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
 </div>
     </div>
   );
