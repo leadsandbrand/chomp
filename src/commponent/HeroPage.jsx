@@ -41,7 +41,7 @@ export default function HeroPage() {
             >
                Bhopal's first  <br />
                fresh food kitchen<br />
-              For pets
+              for pets
             </h1>
 
             {/* SUBTEXT */}
@@ -89,7 +89,7 @@ export default function HeroPage() {
               </button>
 
               <p className="text-sm text-black mt-3">
-              Trial packs, monthly & fortnightly subscription plans available.
+              Trial packs, monthly & fortnightly subscription plans available
 
               </p>
 

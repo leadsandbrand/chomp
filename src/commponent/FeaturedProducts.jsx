@@ -3,7 +3,7 @@ import React from "react";
 export default function FeaturedProducts() {
   return (
    <>
-    <div className="w-screen bg-[#fff] overflow-hidden relative pt-12 md:pt-22">
+    <div className="w-screen bg-[#fff] overflow-hidden relative pt-12 md:pt-15">
 
 {/* SECTION */}
 <section
@@ -58,7 +58,7 @@ export default function FeaturedProducts() {
 
       {/* HEADING */}
       <h1 className="text-4xl md:text-5xl font-oswald font-bold  text-[#d97164]">
-        The menu
+        The Menu
       </h1>
 
       {/* DESCRIPTION */}
@@ -146,8 +146,8 @@ export default function FeaturedProducts() {
           />
 
           <div className="text-sm text-gray-700 font-semibold space-y-1 pl-2">
-            <p>Dairy casein Naturally,</p>
-            <p>   highest calcium,</p>
+            <p>Dairy casein</p>
+            <p>   High calcium</p>
             <p> 100% vegetarian</p>
           </div>
 
@@ -159,7 +159,7 @@ export default function FeaturedProducts() {
   </div>
 
 </section>
-<div className="flex justify-center pb-6  py-31 ">
+<div className="flex justify-center pb-6  py-20 ">
 <div className="w-[83%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
 </div>
 </div>

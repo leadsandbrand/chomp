@@ -50,7 +50,7 @@ const Work = () => {
 
 
 <div className="text-center mb-16 ">
-  <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black mt-5">
+  <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black ">
     Getting started is super easy!
   </h2>
 
@@ -108,7 +108,7 @@ const Work = () => {
   </h3>
 
   <p className="text-gray-600 mb-12">
-  hree simple steps to get fresh food at your door. 
+  Three simple steps to get fresh food at your door. 
 
   </p>
 
@@ -128,7 +128,7 @@ const Work = () => {
     </h4>
 
     <p className="text-gray-600 text-sm leading-relaxed">
-    Choose between a purely vegetarian, vegetarian with egg or a mixed selection of all our meals – whichever suits your dog best. 
+    Choose between a purely vegetarian, vegetarian with egg or a mixed selection of all our meals, whichever suits your dog best. 
 
     </p>
   </div>
@@ -144,7 +144,7 @@ const Work = () => {
     </h4>
 
     <p className="text-gray-600 text-sm leading-relaxed">
-      Monthly or fortnightly — both include free delivery. Pause anytime and adjust portions based on your dog’s needs.
+      Monthly or fortnightly - both include free delivery. Pause anytime and adjust portions based on your dog’s needs.
     </p>
   </div>
 

@@ -3,13 +3,13 @@ import { useState } from "react";
 const faqs = [
   {
     q: "Is Chomp suitable for all dog breeds?",
-    a: "Yes! All four of our current recipes are formulated for adult dogs across breeds. If you have a puppy or a senior dog with specific needs, message us on WhatsApp and we'll advise you personally.\n\If you have any special dietary requirements for your pup, please contact us. We will try our best to customise as per your dog’s needs.",
+    a: "Yes! All four of our current recipes are formulated for adult dogs across breeds. If you have a puppy, a senior dog with specific needs or any other specific dietary requirements, message us on WhatsApp.\n\We will try our best to customise as per your dogs' needs.",
 
 
   },
   {
     q: "What's in a 300g pack?",
-    a: "One freshly made meal — enough for a medium-sized dog's one meal, or two meals for a smaller breed.\n\nAs per your dog’s weight:\nUp to 10kg: 1/2 pack/day\n10-20 kg: 1 pack/day\n20-30kg: 2 packs/day\n30kg+: 3 packs/day"
+    a: "One freshly made meal - enough for a medium-sized dog's one meal, or two meals for a smaller breed.\n\nAs per your dog’s weight:\nUp to 10kg: 1/2 pack/day\n10-20 kg: 1 pack/day\n20-30kg: 2 packs/day\n30kg+: 3 packs/day"
   },
   {
     q: "Where do you deliver?",
@@ -17,11 +17,11 @@ const faqs = [
   },
   {
     q: "How do I store the packs?",
-    a: "Keep them refrigerated — our meals are made fresh with natural ingredients and no artificial preservatives. If unopened, they'll stay fresh for up to 3 days in the fridge."
+    a: "Keep them refrigerated. Our meals are made fresh with natural ingredients and no artificial preservatives. If unopened, they'll stay fresh for up to 3 days in the fridge."
   },
   {
     q: "How do I serve the meals?",
-    a: "No prep needed — just open and serve! Best enjoyed cold or at room temperature. Do not microwave. In warmer months, add some water to keep your dog hydrated."
+    a: "No prep needed - just open and serve! Best enjoyed cold or at room temperature. Do not microwave. In warmer months, add some water to keep your dog hydrated."
   },
   {
     q: "How do I transition my dog to Chomp?",
@@ -50,7 +50,7 @@ export default function FAQPage(){
           And if not,{" "}
           <a
             href="https://wa.me/919109117355"
-            target="_blank"
+            target="blank"
             className="text-[#d97063] font-semibold underline"
           >
             WhatsApp us
@@ -75,7 +75,7 @@ export default function FAQPage(){
               </h3>
 
               {/* Paw Icon */}
-              <span className={`text-xl transition ${active === index ? "rotate-45" : ""}`}>
+              <span className={`text-xl transition  text-black ${active === index ? "rotate-45" : ""}`}>
                 🐾
               </span>
             </div>

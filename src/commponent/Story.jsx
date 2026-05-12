@@ -3,7 +3,7 @@ import React from 'react'
 const Story = () => {
   return (  
     <section>
-  <div className="flex flex-col lg:flex-row items-center justify-between gap-3  py-19 mb-8">
+  <div className="flex flex-col lg:flex-row items-center justify-between gap-3  py-11 mb-8">
 
 {/* IMAGE */}
 {/* IMAGE */}
@@ -22,7 +22,7 @@ const Story = () => {
   />
 
   <p className="mt-7   text-lg md:text-xl ml-40 font-semibold text-black">
-  Meet Jiya, Head of Quality Control
+  Meet Jiya,  our Head of Quality Control
 
   </p>
 
@@ -51,7 +51,7 @@ const Story = () => {
   <p className='mb-2'> Then I sat down to read the back of my dog’s kibble packet. I couldn't pronounce half the ingredients. I didn't know what the other half even was. That’s when my deep dive began!</p>
  
   I started cooking for her - fresh chicken, eggs, a bit of paneer. She went absolutely mad for it. Her coat looks better. She has more energy. And honestly? She just seems happier.
-Chomp was born out of that simple moment: the realisation that the biggest impact I could make for our best friends was right in my own kitchen. 
+Chomp was born out of that simple moment, the realisation that the biggest impact I could make for our best friends was right in my own kitchen. 
 
 <p className='mt-2'>
 That’s how Chomp started - in a kitchen in Bhopal, with one very happy puppy as our taste tester. Now, after a lot of research and consultations with experts in the field, we cook fresh meals every single day and deliver to dogs right to your door. 

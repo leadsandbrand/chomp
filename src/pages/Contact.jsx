@@ -162,7 +162,7 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-[180px_1fr] items-center gap-4">
 
           <label className="text-sm font-semibold text-black">
-            Email (Optional)
+            Email 
           </label>
 
           <input
@@ -302,7 +302,7 @@ export default function ContactPage() {
           Tap here to message us on WhatsApp!
         </a>
       </div> */}
-  <div className="mt-8">
+  <div className="mt-8 ml-110 ">
 
 <h3 className="text-2xl md:text-3xl font-oswald font-bold text-black">
   Rather just chat? We get it.

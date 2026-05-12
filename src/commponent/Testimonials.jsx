@@ -30,11 +30,11 @@ export default function Testimonial() {
   const next = (index + 1) % testimonials.length;
 
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-white py-21 overflow-hidden">
+    <div className="w-full flex flex-col items-center justify-center bg-white py-15 overflow-hidden">
 
       {/* TITLE */}
       <h1 className="text-4xl md:text-5xl font-oswald font-bold text-[#d97063] leading-tight font-oswald text-center">
-        Don’t just take our word for it
+        Don’t just take our word for it!
       </h1>
 
       {/* CARDS */}

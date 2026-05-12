@@ -17,7 +17,7 @@ export default function ProductAdvantages() {
     },
     {
       title: "Delivered fresh",
-      desc: "Made in Bhopal, at your door the same day.",
+      desc: "Cooked in Bhopal, at your door the same day.",
       icon:"/deliveredfresh.icon.png" ,
       color: "bg-[#c8f3ea]",
     },
@@ -30,7 +30,7 @@ export default function ProductAdvantages() {
   ];  
 
   return (
-    <section className="relative bg-[#fff]  overflow-hidden pt-16 md:pt-28">
+    <section className="relative bg-[#fff]  overflow-hidden pt-16 md:pt-15">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-10"
@@ -62,14 +62,14 @@ export default function ProductAdvantages() {
         <p className="text-black mt-4 max-w-xl mx-auto text-lg">
         Because your dog can’t read ingredient labels. But we can!
         </p>
-        <p className="text-black mt-1 max-w-xl mx-auto text-lg">
+        <p className="text-black mt-1  mx-auto text-lg">
 Our Chomp meals are carefully crafted to support better digestion, shinier coats and higher energy levels. 
 
 </p>
       </div>
 
       {/* Main Content */}
-      <div className="grid md:grid-cols-3 items-center gap-10 max-w-7xl mx-auto mt-10 px-18 relative z-10 ">
+      <div className="grid md:grid-cols-3 items-center gap-10 max-w-7xl mx-auto mt-8 px-18 relative z-10 ">
         {/* Left Features */}
         <div className="space-y-14">
   {features.slice(0, 2).map((item, index) => (
@@ -113,7 +113,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
 
               <div>
                 <h3 className="text-2xl font-bold text-black pt-2">{item.title}</h3>
-                <p className="text-gray-500 mt-2 pr-5">{item.desc}</p>
+                <p className="text-black mt-2 pr-5">{item.desc}</p>
               </div>
             </div>
           ))}
@@ -121,14 +121,14 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
       </div>
 
       {/* Buttons */}
-      <div className="flex justify-center gap-5 mt-10 relative z-10 ml-10">
+      {/* <div className="flex justify-center gap-5 mt-10 relative z-10 ml-10">
         <button className="bg-[#d97063] px-8 py-4 rounded-full  text-white  font-bold text-sm hover:scale-105 transition cursor-pointer">
           Order Now 
         </button>
 
      
-      </div>
-      <div className="flex justify-center pb-6 py-33">
+      </div> */}
+      <div className="flex justify-center pb-6 py-18">
   <div className="w-[90%] md:w-[83%] h-[1px] bg-[#d97063]"></div>
 </div>
     </section>

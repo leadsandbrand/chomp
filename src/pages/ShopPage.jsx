@@ -93,7 +93,7 @@ const DetailProduct = () => {
 
 </section>
 
-    <section className="h-screen snap-start bg-[#d9766a] overflow-hidden flex items-center font-oswald" id='soya'>
+    <section className="h-screen snap-start bg-[#e6a944] overflow-hidden flex items-center font-oswald" id='soya'>
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
@@ -178,7 +178,7 @@ const DetailProduct = () => {
 
 </section>
         
-<section className="h-screen snap-start bg-[#e6a944] overflow-hidden flex items-center font-oswald" id='soya'>
+<section className="h-screen snap-start bg-[#d9766a]   overflow-hidden flex items-center font-oswald" id='soya'>
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
@@ -278,9 +278,9 @@ const DetailProduct = () => {
      <br></br>
       A favourite in our kitchen. Soft,  creamy, and packed with calcium   
       <br></br>
-      and protein. 
+      and protein.  Dogs go absolutely wild for this one.
      <br></br>
-     Dogs go absolutely wild for this one.
+     {/* Dogs go absolutely wild for this one. */}
     </p>
 
     <div className="mt-8 flex flex-col items-center md:items-start">

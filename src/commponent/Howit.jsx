@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Howit = () => {
   return (
     <>
-    <div className='flex  flex-col  lg:flex-row items- gap-3  pt-32  px-15 '>
+    <div className='flex  flex-col  lg:flex-row items- gap-3  pt-25  px-15 '>
     
     
     <div className=' w-[full] lg:w-[47%]  pl-17    mt-20 '>
@@ -16,7 +16,7 @@ We offer multiple subscription plans for your convenience.
 
 <p>  and see how your dog responds. </p>
 <p className='mt-2'> 
-Please  note  we cook fresh each day. We do request that you
+Please  note  we cook fresh each day.
   </p>
 <p>We do request that you give us at least 24 hours’ notice for your order!
 </p>

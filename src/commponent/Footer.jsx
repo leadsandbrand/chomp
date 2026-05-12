@@ -115,7 +115,7 @@ const Footer = () => {
               Contact us
 
 </a></li>
-<li className=" text-black"><a href="/shop#paneer">
+<li className=" text-black"><a href="/Chomp_TermsOfUse.docx">
 Privacy policy
 
 </a></li>
@@ -156,7 +156,7 @@ Terms of use
             
             
 
-            <li>
+            {/* <li>
   <div className="flex items-center gap-3">
 
     <FaPhoneAlt className="text-white text-[18px]" />
@@ -166,7 +166,7 @@ Terms of use
     </p>
 
   </div>
-</li>
+</li> */}
 
               <li>
                   <div className="flex items-start gap-3">
