@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-
+import { FaPaw } from "react-icons/fa";
 export default function HeroPage() {
   return (
     <div className="w-screen  bg-[#fff] overflow-hidden relative">
@@ -71,22 +71,28 @@ export default function HeroPage() {
             {/* BUTTON */}
             <div className="mt-8 flex flex-col items-center md:items-start">
 
-              <button
-                className="
-                  bg-[#d97063]
-                  text-white
-                  font-bold
-                  px-6 py-3
-                  rounded-full
-                  shadow-lg
-                  hover:scale-105
-                  transition
-                  duration-300
-                  cursor-pointer
-                "
-              >
-                Order Now
-              </button>
+            <a
+  href="https://wa.me/919109117355"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button
+    className="
+      bg-[#d97063]
+      text-white
+      font-bold
+      px-6 py-3
+      rounded-full
+      shadow-lg
+      hover:scale-105
+      transition
+      duration-300
+      cursor-pointer
+    "
+  >
+    Order Now
+  </button>
+</a>
 
               <p className="text-sm text-black mt-3">
               Trial packs, monthly & fortnightly subscription plans available
@@ -105,6 +111,7 @@ export default function HeroPage() {
             justify-center md:justify-start
             items-center
             order-1 md:order-2
+            md:mt-3
           "
         >
 

@@ -31,6 +31,12 @@ const DetailProduct = () => {
           
     <h2  className=' pb-2'>Standard pack size: 300g
     </h2>
+
+    <a
+  href="https://wa.me/919109117355"
+  target="_blank"
+  rel="noopener noreferrer"
+> 
 <button
   className="
     bg-white
@@ -47,6 +53,8 @@ const DetailProduct = () => {
 >
   Order Now
 </button>
+</a>
+
 
 
 
@@ -116,6 +124,12 @@ const DetailProduct = () => {
    
     <h2  className=' pb-2'>Standard pack size: 300g
    </h2> 
+
+   <a
+  href="https://wa.me/919109117355"
+  target="_blank"
+  rel="noopener noreferrer"
+>
 <button
   className="
     bg-white
@@ -132,6 +146,9 @@ const DetailProduct = () => {
 >
   Order Now
 </button>
+</a>
+
+
 
 
 
@@ -200,6 +217,13 @@ const DetailProduct = () => {
     <div className="mt-8 flex flex-col items-center md:items-start">
     <h2  className=' pb-2'>Standard pack size: 300g
     </h2> 
+
+
+    <a
+  href="https://wa.me/919109117355"
+  target="_blank"
+  rel="noopener noreferrer"
+>
 <button
   className="
     bg-white
@@ -216,6 +240,8 @@ const DetailProduct = () => {
 >
   Order Now
 </button>
+
+  </a>
 
 
 
@@ -287,6 +313,14 @@ const DetailProduct = () => {
    
    <h2  className=' pb-2'>Standard pack size: 300g
    </h2>
+
+
+
+   <a
+  href="https://wa.me/919109117355"
+  target="_blank"
+  rel="noopener noreferrer"
+>  
 <button
   className="
     bg-white
@@ -303,6 +337,8 @@ const DetailProduct = () => {
 >
   Order Now
 </button>
+</a>
+
 
 
 

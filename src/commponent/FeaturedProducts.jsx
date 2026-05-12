@@ -28,7 +28,7 @@ export default function FeaturedProducts() {
   >
 
     <img
-      src="/themanuimage.png"
+      src="/bowler.jpeg"
       alt="Dog"
       className="
         w-[220px]

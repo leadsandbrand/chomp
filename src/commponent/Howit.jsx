@@ -51,14 +51,14 @@ Please  note  we cook fresh each day.
 <div className="w-full lg:w-[50%] flex justify-center   lg:justify-center   justify-center overflow-hidden">
 
 <img
-src="/howitworkdsimage.png"
+src="/chomp11.jpg"
 className="
   w-[320px]
    w-[220px]
           sm:w-[280px]
           md:w-[360px]
           lg:w-[350px]
-          xl:w-[450px]
+          xl:w-[400px]
   object-contain
 "
 />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { FaPaw } from "react-icons/fa";
 const faqs = [
   {
     q: "Is Chomp suitable for all dog breeds?",
@@ -75,9 +75,11 @@ export default function FAQPage(){
               </h3>
 
               {/* Paw Icon */}
-              <span className={`text-xl transition  text-black ${active === index ? "rotate-45" : ""}`}>
-                🐾
-              </span>
+              <FaPaw
+  className={`text-xl transition text-black ${
+    active === index ? "rotate-45" : ""
+  }`}
+/>
             </div>
 
             {/* Answer */}

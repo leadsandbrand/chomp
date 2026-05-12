@@ -93,7 +93,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
         {/* Center Bowl Image */}
         <div className="flex justify-center ">
           <img
-            src="/h1_img-3.png"
+            src="/center.jpeg"
             alt="food bowl"
             className="w-[420px] object-contain"
           />

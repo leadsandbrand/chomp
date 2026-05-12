@@ -7,24 +7,28 @@ const Story = () => {
 
 {/* IMAGE */}
 {/* IMAGE */}
-<div className="w-full lg:w-[50%] flex flex-col items-center lg:items-start overflow-hidden">
+<div className="w-full lg:w-[50%] flex flex-col items-center lg:items-start overflow-hidden ">
+     
+
+
+<p className="   text-lg md:text-xl ml-40 font-semibold text-black pt-3">
+  Meet Jiya,  our Head of Quality Control
+
+  </p>
 
   <img
-    src="/withjia.png"
+    src="/chompstory.jpg"
     className="
       w-[320px]
       sm:w-[420px]
       md:w-[520px]
-      lg:w-[650px]
-      xl:w-[720px]
-      object-contain
+      lg:w-[450px]
+      xl:w-[400px]
+      object-contain  md:ml-25 md:mt-9
     "
   />
 
-  <p className="mt-7   text-lg md:text-xl ml-40 font-semibold text-black">
-  Meet Jiya,  our Head of Quality Control
-
-  </p>
+  
 
 </div>
 
