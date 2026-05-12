@@ -31,7 +31,7 @@ const Story = () => {
 {/* TEXT */}
 <div className="w-full lg:w-[52%] max-w-2xl pr-27 mt-5  ">
 
-  <h2 className="text-4xl md:text-5xl font-bold text-[#6687d8]">
+  <h2 className="text-4xl md:text-5xl font-bold  font-oswald  text-[#6687d8]">
     How Chomp got started
   </h2>
 

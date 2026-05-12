@@ -17,7 +17,7 @@ const Work = () => {
   <div
     className="
       absolute
-      top-[322px]
+      top-[274px]
       left-0
       w-[92%]
       h-[1px]
@@ -30,14 +30,14 @@ const Work = () => {
 
   {/* IMAGE */}
   <img
-    src="/how.png"
+    src="/howtt.png"
     alt="Fresh Food"
     className="
       relative
       z-10
       w-full
       max-w-[500px]
-      h-[250px] sm:h-[350px] md:h-[450px]
+      h-[250px] sm:h-[350px] md:h-[350px]
       object-cover
       
       px-6
@@ -50,7 +50,7 @@ const Work = () => {
 
 
 <div className="text-center mb-16 ">
-  <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black">
+  <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black mt-5">
     Getting started is super easy!
   </h2>
 

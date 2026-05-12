@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 const Howit = () => {
   return (
     <>
@@ -18,8 +18,33 @@ We offer multiple subscription plans for your convenience.
 <p className='mt-2'> 
 Please  note  we cook fresh each day. We do request that you
   </p>
-<p> give us at least 24 hour notice for your order!</p>
+<p>We do request that you give us at least 24 hours’ notice for your order!
 </p>
+</p>
+
+
+
+<div className="mt-8 flex flex-col items-center md:items-start">
+
+<Link
+  to="/work"
+  className="
+    bg-[#d97063]
+    text-white
+    font-bold
+    px-6 py-3
+    rounded-full
+    shadow-lg
+    hover:scale-105
+    transition
+    duration-300
+    cursor-pointer
+    inline-block
+  "
+>
+  Click here to know more!
+</Link>
+</div>
     </div>
 
 
