@@ -47,10 +47,10 @@ const Footer = () => {
 
           {/* LOGO */}
           <div>
-            <img src="/logochomp.white.png"   className="w-24 md:w-32 object-contain cursor-pointer"/>
+            <img src="/logochomp.white.png"   className="w-24 md:w-36 object-contain cursor-pointer"/>
           </div>
               
-              <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤️ in Bhopal.</h1></div>
+              <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤︎ in Bhopal</h1></div>
           
           {/* TIMING */}
    
@@ -74,8 +74,8 @@ const Footer = () => {
 
             <h2 className="text-3xl font-bold leading-tight">
             Bhopal's first  <br />
-               Fresh Food Kitchen<br />
-              For Pets
+               fresh food kitchen<br />
+              for pets
             </h2>
   
      
@@ -94,10 +94,10 @@ const Footer = () => {
 
            
             <ul className="space-y-3 text-white cursor-pointer">
-              <li className=" font-bold"><a href="/shop#chicken">
+              <li className=" font-bold text-lg mb-5">
               Quick Links
 
-</a></li>
+</li>
 
               <li><a href="/shop#egg">
               Menu
@@ -112,7 +112,7 @@ const Footer = () => {
 
 </a></li>
               <li><a href="/shop#paneer">
-              Contact US
+              Contact us
 
 </a></li>
 <li className=" text-black"><a href="/shop#paneer">
@@ -192,7 +192,7 @@ Terms of use
   
 
     <p  className=" pl-2">
-      +91 9876543210
+    +91 91091 17355
     </p>
 
   </div>
@@ -239,7 +239,7 @@ Terms of use
         >
 
           <p className="text-white  text-sm">
-          Copyright Juniper Collective Pvt. Ltd.
+          Copyright @ 2026 Juniper Collective Pvt. Ltd. All rights reserved.
 
           </p>
 

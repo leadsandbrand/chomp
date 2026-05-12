@@ -3,14 +3,14 @@ import React from "react";
 export default function FeaturedProducts() {
   return (
    <>
-    <div className="w-screen bg-[#fff] overflow-hidden relative">
+    <div className="w-screen bg-[#fff] overflow-hidden relative pt-12 md:pt-22">
 
 {/* SECTION */}
 <section
   className="
     relative z-30
     grid grid-cols-1 md:grid-cols-2
-    items-center
+    items-start
     w-full
     px-6 sm:px-10 md:px-16 lg:px-24
      
@@ -57,8 +57,8 @@ export default function FeaturedProducts() {
     <div className="max-w-[900px] w-full">
 
       {/* HEADING */}
-      <h1 className="text-4xl md:text-5xl font-oswald font-bold  text-[#708ac5]">
-        The Menu
+      <h1 className="text-4xl md:text-5xl font-oswald font-bold  text-[#d97164]">
+        The menu
       </h1>
 
       {/* DESCRIPTION */}
@@ -84,8 +84,8 @@ export default function FeaturedProducts() {
           />
 
           <div className="text-sm text-gray-700 font-semibold space-y-1 pl-3">
-            <p>Lean protein,</p> 
-            <p>Whole-food calcium,</p>
+            <p>Lean protein</p> 
+            <p>Whole-food calcium</p>
             <p> Naturally high fibre</p>
           </div>
 
@@ -104,8 +104,8 @@ export default function FeaturedProducts() {
           />
 
           <div className="text-sm text-gray-700 font-semibold space-y-1 pl-2">
-            <p>Highest bioavailability,</p>
-            <p>Oat fibre,</p>
+            <p>Highest bioavailability</p>
+            <p>Oat fibre</p>
             <p> Whole-food minerals</p>
           </div>
 

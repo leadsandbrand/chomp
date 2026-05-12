@@ -50,7 +50,7 @@ export default function Navbar() {
           MENU 
         </Link>
         <Link to="/work" className="hover:text-[#d97063] transition">
-          HOW IT WORK 
+          HOW IT WORKS 
         </Link>
         <Link to="/contact" className="hover:text-[#d97063] transition">
           ORDER NOW 

@@ -12,6 +12,7 @@ import {
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 const Footer1 = () => {
   return (
     <footer className="relative overflow-hidden bg-[#d9766a] text-white mt-33">
@@ -44,10 +45,10 @@ const Footer1 = () => {
 
         {/* LOGO */}
         <div>
-          <img src="/logochomp.white.png"   className="w-24 md:w-32 object-contain cursor-pointer"/>
+          <img src="/logochomp.white.png"   className="w-24 md:w-36 object-contain cursor-pointer"/>
         </div>
             
-            <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤️ in Bhopal.</h1></div>
+            <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤︎ in Bhopal</h1></div>
         
         {/* TIMING */}
  
@@ -70,9 +71,9 @@ const Footer1 = () => {
         <div >
 
           <h2 className="text-3xl font-bold leading-tight">
-          BHOPAL'S FIRST <br />
-            FRESH FOOD KITCHEN <br />
-            FOR PETS.
+          Bhopal's first  <br />
+             fresh food kitchen<br />
+            for pets
           </h2>
 
    
@@ -91,10 +92,10 @@ const Footer1 = () => {
 
          
           <ul className="space-y-3 text-white cursor-pointer">
-            <li><a href="/shop#chicken">
+            <li className=" font-bold text-lg mb-5">
             Quick Links
 
-</a></li>
+</li>
 
             <li><a href="/shop#egg">
             Menu
@@ -109,14 +110,14 @@ const Footer1 = () => {
 
 </a></li>
             <li><a href="/shop#paneer">
-            Contact US
+            Contact us
 
 </a></li>
-<li><a href="/shop#paneer">
+<li className=" text-black"><a href="/shop#paneer">
 Privacy policy
 
 </a></li>
-<li><a href="/shop#paneer">
+<li className=" text-black"><a href="/shop#paneer">
 Terms of use
 
 </a></li>
@@ -146,7 +147,7 @@ Terms of use
         <div>
 
           <h3 className="font-bold text-lg mb-5">
-            GET IN TOUCH
+             Get In Touch
           </h3>
 
           <ul className="space-y-3 text-white">
@@ -156,9 +157,9 @@ Terms of use
           <li>
 <div className="flex items-center gap-3">
 
-  <FaPhoneAlt className="text-white text-[16px]" />
+  <FaPhoneAlt className="text-white text-[18px]" />
 
-  <p>
+  <p  className=" pl-2">
   +91 91091 17355
   </p>
 
@@ -172,11 +173,9 @@ Terms of use
 
 <div>
 
-<p className="font-semibold">
-              Email Us
-            </p>
 
-<p className="text-sm text-white">
+
+<p className="text-sm text-white pl-2">
 connect@getchomp.in
 </p>
 </div>
@@ -186,22 +185,24 @@ connect@getchomp.in
 </li>
         
 <li>
-  <div className="flex items-start gap-3">
+<div className="flex items-center gap-3">
+<IoLogoWhatsapp   className="text-white text-[23px]" />
 
-    <FaWhatsapp className="text-white mt-1 text-[20px]" />
 
-    <p>+91 9876543210</p>
+  <p  className=" pl-2">
+  +91 91091 17355
+  </p>
 
-  </div>
+</div>
 </li>
 
 
             <li> <div className="flex items-start gap-3">
 
-<FaMapMarkerAlt className="text-white mt-1 text-[20px]" />
+<FaMapMarkerAlt className="text-white mt-1 text-[28px]" />
 
 <div>
-<p className="">
+<p className=" pl-2">
 Kitchen: B/136, Mahakali Society, Trilanga, Bhopal 462039
 
 
@@ -236,7 +237,7 @@ Kitchen: B/136, Mahakali Society, Trilanga, Bhopal 462039
       >
 
         <p className="text-white  text-sm">
-        Copyright Juniper Collective Pvt. Ltd.
+        Copyright @ 2026 Juniper Collective Pvt. Ltd. All rights reserved.
 
         </p>
 

@@ -3,14 +3,14 @@ import React from 'react'
 const Story = () => {
   return (  
     <section>
-  <div className="flex flex-col lg:flex-row items-center justify-between gap-3  py-22 mb-8">
+  <div className="flex flex-col lg:flex-row items-center justify-between gap-3  py-19 mb-8">
 
 {/* IMAGE */}
 {/* IMAGE */}
-<div className="w-full lg:w-[50%] flex justify-center lg:justify-start overflow-hidden">
+<div className="w-full lg:w-[50%] flex flex-col items-center lg:items-start overflow-hidden">
 
   <img
-    src="/chomstory image-Photoroom.png"
+    src="/withjia.png"
     className="
       w-[320px]
       sm:w-[420px]
@@ -18,17 +18,21 @@ const Story = () => {
       lg:w-[650px]
       xl:w-[720px]
       object-contain
-
     "
   />
+
+  <p className="mt-7   text-lg md:text-xl ml-40 font-semibold text-black">
+  Meet Jiya, Head of Quality Control
+
+  </p>
 
 </div>
 
 {/* TEXT */}
 <div className="w-full lg:w-[52%] max-w-2xl pr-27 mt-5  ">
 
-  <h2 className="text-4xl md:text-5xl font-bold text-[#d97063]">
-    How Chomp Got Started
+  <h2 className="text-4xl md:text-5xl font-bold text-[#6687d8]">
+    How Chomp got started
   </h2>
 
   {/* <div className=" flex  justify-start items-center mt-2"> 
@@ -36,7 +40,7 @@ const Story = () => {
         </div> */}
 <br></br>
   <p className="text-gray-700 mb-4 italic font-bold">
-    From one pet parent to another -
+    From one pet parent to another,
   </p>
 
   <p className="text-gray-700 mb-4">
@@ -50,7 +54,7 @@ const Story = () => {
 Chomp was born out of that simple moment: the realisation that the biggest impact I could make for our best friends was right in my own kitchen. 
 
 <p className='mt-2'>
-That’s how Chomp started – in a kitchen in Bhopal, with one very happy puppy as our taste tester. Now, after a lot of research and consultations with experts in the field, we cook fresh meals every single day and deliver to dogs right to your door. 
+That’s how Chomp started - in a kitchen in Bhopal, with one very happy puppy as our taste tester. Now, after a lot of research and consultations with experts in the field, we cook fresh meals every single day and deliver to dogs right to your door. 
 
 We're a local kitchen with one mission: Simple food. Happy, healthy dogs. That's it.</p>
 

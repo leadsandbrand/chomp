@@ -7,16 +7,16 @@ const Howit = () => {
     
     
     <div className=' w-[full] lg:w-[47%]  pl-17    mt-20 '>
-    <h1 className="text-4xl md:text-5xl font-oswald font-bold  text-[#d97063]">
-         How It Works
+    <h1 className="text-4xl md:text-5xl font-oswald font-bold  text-[#d97164]">
+         How it works
 </h1>
 <p className="text-gray-700 mb-4 pt-6"> 
 We offer multiple subscription plans for your convenience. 
 <p> If you’re still deciding, you can also choose our trial packs and </p>
-<p>  see how your dog responds. If you’re still deciding, you can </p>
-<p> also choose our trial packs and see how your dog responds. </p>
+
+<p>  and see how your dog responds. </p>
 <p className='mt-2'> 
-Please note – we cook fresh each day. We do request that you
+Please  note  we cook fresh each day. We do request that you
   </p>
 <p> give us at least 24 hour notice for your order!</p>
 </p>

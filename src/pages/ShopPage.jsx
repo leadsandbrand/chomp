@@ -8,7 +8,7 @@ const DetailProduct = () => {
     <>
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
    <Navbar/>
-<section className="h-screen snap-start bg-[#7fa857] overflow-hidden flex items-center font-oswald" id='soya'>
+<section className="h-screen snap-start bg-[#98a35a] overflow-hidden flex items-center font-oswald" id='soya'>
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
@@ -28,11 +28,13 @@ const DetailProduct = () => {
     </p>
 
     <div className="mt-8 flex flex-col items-center md:items-start">
-
+          
+    <h2  className=' pb-2'>Standard pack size: 300g
+    </h2>
 <button
   className="
     bg-white
-    text-green-600
+    text-[#98a35a]
     font-bold
     px-6 py-3
     rounded-full
@@ -111,7 +113,9 @@ const DetailProduct = () => {
     </p>
 
     <div className="mt-8 flex flex-col items-center md:items-start">
-
+   
+    <h2  className=' pb-2'>Standard pack size: 300g
+   </h2> 
 <button
   className="
     bg-white
@@ -174,7 +178,7 @@ const DetailProduct = () => {
 
 </section>
         
-<section className="h-screen snap-start bg-[#e7ac4e] overflow-hidden flex items-center font-oswald" id='soya'>
+<section className="h-screen snap-start bg-[#e6a944] overflow-hidden flex items-center font-oswald" id='soya'>
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
@@ -194,7 +198,8 @@ const DetailProduct = () => {
     </p>
 
     <div className="mt-8 flex flex-col items-center md:items-start">
-
+    <h2  className=' pb-2'>Standard pack size: 300g
+    </h2> 
 <button
   className="
     bg-white
@@ -257,7 +262,7 @@ const DetailProduct = () => {
 
 </section>
     
-<section className="h-screen snap-start bg-[#9aa562] overflow-hidden flex items-center font-oswald" id='soya'>
+<section className="h-screen snap-start bg-[#98a35a] overflow-hidden flex items-center font-oswald" id='soya'>
 
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
@@ -271,17 +276,21 @@ const DetailProduct = () => {
     <p className="text-lg leading-relaxed mb-6 mt-4">
     Fresh cottage cheese with vegetables and rice. 
      <br></br>
-      A favourite in our kitchen. Soft, creamy, and packed with calcium and protein. 
+      A favourite in our kitchen. Soft,  creamy, and packed with calcium   
+      <br></br>
+      and protein. 
      <br></br>
      Dogs go absolutely wild for this one.
     </p>
 
     <div className="mt-8 flex flex-col items-center md:items-start">
-
+   
+   <h2  className=' pb-2'>Standard pack size: 300g
+   </h2>
 <button
   className="
     bg-white
-    text-green-600
+    text-[#98a35a]
     font-bold
     px-6 py-3
     rounded-full

@@ -27,10 +27,10 @@ export default function ProductAdvantages() {
       icon: "/zerohassel.icon.png",
       color: "bg-[#ffd7cf]",
     },
-  ];
+  ];  
 
   return (
-    <section className="relative bg-[#fff] py-23 overflow-hidden ">
+    <section className="relative bg-[#fff]  overflow-hidden pt-16 md:pt-28">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-10"
@@ -49,7 +49,7 @@ export default function ProductAdvantages() {
 
       {/* Heading */}
       <div className="text-center relative z-10">
-        <h2 className="text-5xl font-bold text-[#d97063] leading-tight  font-oswald ">
+        <h2 className="text-4xl md:text-5xl font-oswald font-bold  text-[#6687d8]">
         Why Chomp?
         </h2>
 
@@ -69,7 +69,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
       </div>
 
       {/* Main Content */}
-      <div className="grid md:grid-cols-3 items-center gap-10 max-w-7xl mx-auto mt-20 px-18 relative z-10 ">
+      <div className="grid md:grid-cols-3 items-center gap-10 max-w-7xl mx-auto mt-10 px-18 relative z-10 ">
         {/* Left Features */}
         <div className="space-y-14">
   {features.slice(0, 2).map((item, index) => (
@@ -121,7 +121,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
       </div>
 
       {/* Buttons */}
-      <div className="flex justify-center gap-5 mt-16 relative z-10 ml-10">
+      <div className="flex justify-center gap-5 mt-10 relative z-10 ml-10">
         <button className="bg-[#d97063] px-8 py-4 rounded-full  text-white  font-bold text-sm hover:scale-105 transition cursor-pointer">
           Order Now 
         </button>

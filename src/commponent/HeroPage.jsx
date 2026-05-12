@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function HeroPage() {
   return (
-    <div className="w-screen min-h-screen bg-[#fff] overflow-hidden relative">
+    <div className="w-screen  bg-[#fff] overflow-hidden relative">
 
       {/* Navbar */}
       <div className="absolute top-0 left-0 w-full z-50">
@@ -40,8 +40,8 @@ export default function HeroPage() {
               "
             >
                Bhopal's first  <br />
-               Fresh Food Kitchen<br />
-              For Pets
+               fresh food kitchen<br />
+              For pets
             </h1>
 
             {/* SUBTEXT */}
@@ -57,14 +57,14 @@ export default function HeroPage() {
               "
             >
               <span className="block italic">
-                <span> Real Food </span> |
-                <span >  No Preservatives</span> |
-                <span > No Fillers</span> |
-                <span >  No Compromise</span>
+                <span> Real food </span> |
+                <span >  No preservatives</span> |
+                <span > No fillers</span> |
+                <span >  No compromise</span>
               </span>
 
               <span className="block mt-1 italic">
-               Delivered To Your Door 
+               Delivered to your door 
               </span>
             </p>
 

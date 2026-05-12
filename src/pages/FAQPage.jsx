@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "How do I transition my dog to Chomp?",
-    a: "We recommend a 7-day transition:\nDay 1: 75% old diet, 25% Chomp\nDay 2-4: 50% old diet, 50% Chomp\nDay 5-6: 25% old diet, 75% Chomp\nDay 7 onwards: Chomp all the way!\n\nEvery dog adapts differently—go at their pace."
+    a: "If your dog is currently exclusively eating packaged, dry food, we recommend a gradual transition to help their digestive system adjust:\nDay 1: 75% old diet, 25% Chomp\nDay 2: 50% old diet, 50% Chomp\nDay 3 onwards: Chomp all the way!\nEvery dog adapts differently. Go at their pace."
   },
   
   {
