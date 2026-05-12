@@ -115,14 +115,26 @@ const Footer = () => {
               Contact us
 
 </a></li>
-<li className=" text-black"><a href="/Chomp_TermsOfUse.docx">
-Privacy policy
+<li className=" text-black">
+<a
+  href="/Chomp_PrivacyPolicy.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Privacy Policy
+</a>
 
-</a></li>
-<li className=" text-black"><a href="/shop#paneer">
-Terms of use
+</li>
+<li className=" text-black">
+<a
+    href="/Chomp_TermsofUse.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Terms & Use
+  </a>
+  </li>
 
-</a></li>
              
             </ul>
 
@@ -248,11 +260,11 @@ Terms of use
             
           <a
   href="mailto:connect@getchomp.in"
-  className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+  className="w-10 h-10 rounded-full  flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
 >
   <MdEmail size={18} />
 </a>
-            <div className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
+            <div className="w-10 h-10 rounded-full   flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
               <FaFacebookF size={16} />
             </div>
 
@@ -263,7 +275,7 @@ Terms of use
   href="https://instagram.com/lets.chomp"
   target="_blank"
   rel="noopener noreferrer"
-  className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+  className="w-10 h-10 rounded-full  flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
 >
   <FaInstagram size={16} />
 </a>

@@ -6,16 +6,31 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
-
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-    }, 2000); // simulate API
+  
+    const formData = {
+      name,
+      email,
+      phone,
+      message,
+    };
+  
+    try {
+      await fetch(
+        "https://docs.google.com/spreadsheets/d/1nRzgi1ZyBiPa_KoCckuuMeSoHE0GIryDMXHUnYZR_SU/edit?gid=0#gid=0",
+        {
+          method: "POST",
+          body: JSON.stringify(formData),
+        }
+      );
+  
+      alert("Form submitted successfully!");
+    } catch (error) {
+      console.log(error);
+    }
   };
+
 
   return (
     <>
@@ -276,7 +291,7 @@ export default function ContactPage() {
   <div className="hidden lg:flex items-end justify-center  pb-12">
 
 <img
-  src="/banner.5.png"
+  src="/chompordernow.jpg"
   alt="Dog"
   className="w-[600px] h-[600px] object-contain"
 />
