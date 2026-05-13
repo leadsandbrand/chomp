@@ -99,7 +99,7 @@ const Footer = () => {
 
 </li>
 
-              <li><a href="/shop#egg">
+              <li><a href="/shop">
               Menu
 
 </a></li>
@@ -107,15 +107,15 @@ const Footer = () => {
 
 
 
-              <li><a href="/shop#soya">
+              <li><a href="/work">
               How it works
 
 </a></li>
-              <li><a href="/shop#paneer">
+              <li><a href="/contact">
               Contact us
 
 </a></li>
-<li className=" text-black">
+<li className=" ">
 <a
   href="/Chomp_PrivacyPolicy.pdf"
   target="_blank"
@@ -125,13 +125,13 @@ const Footer = () => {
 </a>
 
 </li>
-<li className=" text-black">
+<li className=" ">
 <a
     href="/Chomp_TermsofUse.pdf"
     target="_blank"
     rel="noopener noreferrer"
   >
-    Terms & Use
+    Terms of Use
   </a>
   </li>
 
@@ -264,11 +264,19 @@ const Footer = () => {
 >
   <MdEmail size={18} />
 </a>
-            <div className="w-10 h-10 rounded-full   flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer">
-              <FaFacebookF size={16} />
-            </div>
 
-           
+<a
+  href="https://www.facebook.com/profile.php?id=61572035913039"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-10 h-10 rounded-full  flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+>
+<FaFacebookF size={16} />
+</a>
+         
+
+
+          
          
 
               <a
