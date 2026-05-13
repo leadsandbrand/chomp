@@ -75,7 +75,7 @@ export default function Testimonial() {
       {testimonials[index].name}
     </h2>
 
-    <p className="text-black text-xl font-bold   ml-21 ">
+    <p className="text-black  ml-21 ">
       {testimonials[index].role}
     </p>
   </div>
