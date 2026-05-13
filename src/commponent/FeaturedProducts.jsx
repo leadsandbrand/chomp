@@ -37,7 +37,7 @@ export default function FeaturedProducts() {
         lg:w-[500px]
         xl:w-[500px]
         object-contain
-        
+         mt-17
       "
     />
 
