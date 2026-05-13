@@ -128,7 +128,7 @@ const Work = () => {
     </h4>
 
     <p className="text-gray-600 text-sm leading-relaxed">
-    Choose between a purely vegetarian, vegetarian with egg or a mixed selection of all our mealswhichever suits your dog best. 
+    Choose between a purely vegetarian, vegetarian with egg or a mixed selection of all our meals, whichever suits your dog best. 
 
     </p>
   </div>
@@ -159,7 +159,7 @@ const Work = () => {
     </h4>
 
     <p className="text-gray-600 text-sm leading-relaxed">
-      Fresh meals cooked daily and delivered between 3pm–7pm. Just open and serve!
+      Fresh meals cooked daily and delivered between 3pm-7pm. Just open and serve!
     </p>
   </div>
 

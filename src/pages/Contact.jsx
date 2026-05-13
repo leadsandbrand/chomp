@@ -6,30 +6,54 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-  
-    const formData = {
-      name,
-      email,
-      phone,
-      message,
-    };
-  
-    try {
-      await fetch(
-        "https://docs.google.com/spreadsheets/d/1nRzgi1ZyBiPa_KoCckuuMeSoHE0GIryDMXHUnYZR_SU/edit?gid=0#gid=0",
-        {
-          method: "POST",
-          body: JSON.stringify(formData),
-        }
-      );
-  
-      alert("Form submitted successfully!");
-    } catch (error) {
-      console.log(error);
-    }
+
+  const [name, setName] = useState("");
+const [email, setEmail] = useState("");
+const [phone, setPhone] = useState("");
+const [message, setMessage] = useState("");
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  setLoading(true);
+
+  const formData = {
+    name,
+    email,
+    phone,
+    message,
   };
+
+  console.log("Submitting form data:", formData);
+
+  try {
+
+    const response = await fetch(
+      "https://script.google.com/macros/s/AKfycbzrmA3GSHsYnE0A2t75oyEq18R7oUhun8t_ns4ThHWwW4xCaHKYw03aSbjOVFn67DmV/exec",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8",
+        },
+        body: JSON.stringify(formData),
+      }
+    );
+    
+    console.log("Data sent successfully");
+    console.log("Fetch response:", response);
+
+    setSubmitted(true);
+
+    alert("Form submitted successfully!");
+
+  } catch (error) {
+
+    console.log("Error:", error);
+
+  }
+
+  setLoading(false);
+};
 
 
   return (
@@ -68,18 +92,20 @@ export default function ContactPage() {
           </label>
 
           <input
-            type="text"
-            placeholder="What do we call you?"
-            className="
-              w-full
-              border border-gray-200
-              p-1 rounded-xl
-              outline-none
-              placeholder:text-sm
-              focus:border-[#d97063]
-            "
-            required
-          />
+  type="text"
+  placeholder="What do we call you?"
+  value={name}
+  onChange={(e) => setName(e.target.value)}
+  className="
+    w-full
+    border border-gray-200
+    p-1 rounded-xl
+    outline-none
+    placeholder:text-sm
+    focus:border-[#d97063]
+  "
+  required
+/>
 
         </div>
 
@@ -156,21 +182,21 @@ export default function ContactPage() {
           <label className="text-sm font-semibold text-black">
             Phone number
           </label>
-
           <input
-            type="tel"
-            placeholder="No bots! Real humans respond"
-            className="
-              w-full
-              border border-gray-200
-              p-1 rounded-xl
-              outline-none
-              placeholder:text-sm
-              focus:border-[#d97063]
-            "
-            required
-          />
-
+  type="tel"
+  placeholder="No bots! Real humans respond"
+  value={phone}
+  onChange={(e) => setPhone(e.target.value)}
+  className="
+    w-full
+    border border-gray-200
+    p-1 rounded-xl
+    outline-none
+    placeholder:text-sm
+    focus:border-[#d97063]
+  "
+  required
+/>
         </div>
 
         {/* EMAIL */}
@@ -181,17 +207,19 @@ export default function ContactPage() {
           </label>
 
           <input
-            type="email"
-            placeholder="(Optional)"
-            className="
-              w-full
-              border border-gray-200
-              p-1 rounded-xl
-              outline-none
-              placeholder:text-sm
-              focus:border-[#d97063]
-            "
-          />
+  type="email"
+  placeholder="(Optional)"
+  value={email}
+  onChange={(e) => setEmail(e.target.value)}
+  className="
+    w-full
+    border border-gray-200
+    p-1 rounded-xl
+    outline-none
+    placeholder:text-sm
+    focus:border-[#d97063]
+  "
+/>
 
         </div>
 
@@ -225,18 +253,20 @@ export default function ContactPage() {
           </label>
 
           <input
-            type="text"
-            placeholder="Any questions or just looking to find out more?"
-            className="
-              w-full
-              border border-gray-200
-              p-1 rounded-xl
-              outline-none
-              placeholder:text-sm
-              focus:border-[#d97063]
-            "
-            required
-          />
+  type="text"
+  placeholder="Any questions or just looking to find out more?"
+  value={message}
+  onChange={(e) => setMessage(e.target.value)}
+  className="
+    w-full
+    border border-gray-200
+    p-1 rounded-xl
+    outline-none
+    placeholder:text-sm
+    focus:border-[#d97063]
+  "
+  required
+/>
         </div>
 
         {/* BUTTON */}

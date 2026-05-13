@@ -18,7 +18,7 @@ export default function HeroPage() {
           items-center
         
           px-2 sm:px-10 md:px-6 lg:px-6
-          pt-28 md:pt-10
+          pt-28 md:pt-20
           mt-8
            md:gap-4
         "

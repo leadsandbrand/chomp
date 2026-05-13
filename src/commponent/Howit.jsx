@@ -51,15 +51,16 @@ Please  note  we cook fresh each day.
 <div className="w-full lg:w-[50%] flex justify-center   lg:justify-center   justify-center overflow-hidden">
 
 <img
-src="/chomp11.jpg"
+src="/Rottweiler1-Photoroom.png"
 className="
   w-[320px]
    w-[220px]
           sm:w-[280px]
           md:w-[360px]
           lg:w-[350px]
-          xl:w-[400px]
+          xl:w-[500px]
   object-contain
+  pb-15
 "
 />
 <div className="flex justify-center pb-6 ">

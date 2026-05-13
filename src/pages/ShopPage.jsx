@@ -133,7 +133,7 @@ const DetailProduct = () => {
 <button
   className="
     bg-white
-    text-[#d9766a]
+    text-[#e6a944]
     font-bold
     px-6 py-3
     rounded-full
@@ -227,7 +227,7 @@ const DetailProduct = () => {
 <button
   className="
     bg-white
-    text-[#e7ac4e] 
+    text-[#d9766a] 
     font-bold
     px-6 py-3
     rounded-full
