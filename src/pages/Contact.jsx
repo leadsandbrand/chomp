@@ -8,9 +8,16 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
 
   const [name, setName] = useState("");
+  const [dogname, setDogname] = useState("");
 const [email, setEmail] = useState("");
+
 const [phone, setPhone] = useState("");
+const [address,setAddress]= useState("");
 const [message, setMessage] = useState("");
+const [age, setAge] = useState("");
+const[about, setAbout] = useState("");
+
+
 const handleSubmit = async (e) => {
   e.preventDefault();
 
@@ -18,9 +25,18 @@ const handleSubmit = async (e) => {
 
   const formData = {
     name,
-    email,
+    dogname,
+    age,
+
+    about,
     phone,
+    email,
+    address,
     message,
+   
+    
+    
+
   };
 
   console.log("Submitting form data:", formData);
@@ -28,7 +44,7 @@ const handleSubmit = async (e) => {
   try {
 
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbzrmA3GSHsYnE0A2t75oyEq18R7oUhun8t_ns4ThHWwW4xCaHKYw03aSbjOVFn67DmV/exec",
+      "https://script.google.com/macros/s/AKfycbxMFfLWEMC_F5kMvCXlMoiKA_nzi_45EMaH6yhFY0W6kTNb0vxq0IpT4eg1ByY_OhY/exec",
       {
         method: "POST",
         mode: "no-cors",
@@ -44,7 +60,7 @@ const handleSubmit = async (e) => {
 
     setSubmitted(true);
 
-    alert("Form submitted successfully!");
+    alert("You're in! We'll get in touch soon. Your dog is about to have a very good day.");
 
   } catch (error) {
 
@@ -119,6 +135,8 @@ const handleSubmit = async (e) => {
           <input
             type="text"
             placeholder="The real star of the show"
+            value={dogname}
+            onChange={(e) => setDogname(e.target.value)}
             className="
               w-full
               border border-gray-200
@@ -141,6 +159,8 @@ const handleSubmit = async (e) => {
           <input
             type="text"
             placeholder="How old?"
+            value={age}
+            onChange={(e) => setAge(e.target.value)}
             className="
               w-full
               border border-gray-200
@@ -163,6 +183,8 @@ const handleSubmit = async (e) => {
           <input
             type="text"
             placeholder="Any dietary needs? Activity levels?"
+            value={about}
+            onChange={(e) => setAbout(e.target.value)}
             className="
               w-full
               border border-gray-200
@@ -233,6 +255,10 @@ const handleSubmit = async (e) => {
           <input
             type="text"
             placeholder="Just to check availability"
+
+
+            value={address}
+            onChange={(e) => setAddress(e.target.value)}
             className="
               w-full
               border border-gray-200
@@ -321,7 +347,7 @@ const handleSubmit = async (e) => {
   <div className="hidden lg:flex items-end justify-center  pb-12">
 
 <img
-  src="/chompordernow.jpg"
+  src="/final.2.png"
   alt="Dog"
   className="w-[600px] h-[600px] object-contain"
 />

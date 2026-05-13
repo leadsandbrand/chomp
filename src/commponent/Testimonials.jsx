@@ -67,7 +67,7 @@ export default function Testimonial() {
   <img
     src={testimonials[index].image}
     alt="testimonial"
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover object-top"
   />
 </div>
 

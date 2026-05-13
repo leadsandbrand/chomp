@@ -17,7 +17,7 @@ const Story = () => {
   </p>
 
   <img
-    src="/chompstory.png"
+    src="/final.1.png"
     className="
       w-[320px]
       sm:w-[420px]

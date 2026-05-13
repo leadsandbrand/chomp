@@ -28,16 +28,16 @@ export default function FeaturedProducts() {
   >
 
     <img
-      src="/Poodle4-Photoroom.png"
+      src="/final.3.png"
       alt="Dog"
       className="
         w-[220px]
         sm:w-[280px]
         md:w-[360px]
         lg:w-[500px]
-        xl:w-[500px]
+        xl:w-[300px]
         object-contain
-         mt-17
+         mt-17 ml-15
       "
     />
 
