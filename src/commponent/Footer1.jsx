@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import {
   FaFacebookF,
   FaTwitter,
@@ -84,21 +84,25 @@ const Footer = () => {
 
   {/* PRODUCTS */}
   <div>
-    <ul className="space-y-3 text-white cursor-pointer flex flex-col items-center md:items-start">
+  <ul className="space-y-3 text-white cursor-pointer flex flex-col items-center md:items-start">
       <li className="font-bold md:text-lg mb-5 text-2xl">
         Quick Links
       </li>
 
       <li>
-        <a href="/shop">Menu</a>
+      <Link to="/shop">
+      Menu
+      </Link>
+       
       </li>
 
       <li>
-        <a href="/work">How it works</a>
+      <Link to="/shop"> How it works </Link>
+       
       </li>
 
       <li>
-        <a href="/contact">Contact us</a>
+      <Link to="/contact"> contact us </Link>
       </li>
 
       <li>
