@@ -35,250 +35,176 @@ const Footer = () => {
 
         {/* TOP CONTACT ROW */}
         <div
-          className="
-            grid grid-cols-1 md:grid-cols-2
-            md:grid-cols-[20%_80%]
+  className="
+    grid grid-cols-1 md:grid-cols-2
+    md:grid-cols-[20%_80%]
+    pb-10
+    pl-0 md:pl-25
+    border-b border-white
+    text-center md:text-left
+    place-items-center md:place-items-start
+  "
+>
+  {/* LOGO */}
+  <div>
+    <img
+      src="/logochomp.white.png"
+      className="w-30 md:w-36 object-contain cursor-pointer pb-10 md:pb-0"
+    />
+  </div>
 
-           pb-10 pl-4
-            border-b border-white
-           
-          "
-        >
-
-          {/* LOGO */}
-          <div>
-            <img src="/logochomp.white.png"   className="w-30 md:w-36 object-contain cursor-pointer  md:pb-0  pb-10"/>
-          </div>
-              
-              <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤︎ in Bhopal</h1></div>
-          
-          {/* TIMING */}
-   
-
-          {/* EMAIL */}
-       
-
-        </div>
+  {/* TEXT */}
+  <div>
+    <h1 className="text-3xl font-bold">
+      Our food is prepared and delivered with ❤︎ in Bhopal
+    </h1>
+  </div>
+</div>
 
         {/* MIDDLE SECTION */}
-        <div 
-          className="
-            grid grid-cols-1 md:grid-cols-3
-            md:gap-50 gap-10
-            pt-14
-          "
-        >
-
-          {/* LEFT TEXT */}
-          <div >
-
-            <h2 className="text-3xl font-bold leading-tight ml-7">
-            Bhopal's first  <br />
-               fresh food kitchen<br />
-              for pets
-            </h2>
-  
-     
-   
-              {/* <p className="text-gray-300 mt-5 leading-relaxed">
-              We’ll help you find healthy fresh food that is right for your pet.
-              Freshly cooked meals made with real ingredients and zero compromise.
-            </p> */}
-
-         
-
-          </div>
-
-          {/* PRODUCTS */}
-          <div>
-
-           
-            <ul className="space-y-3 text-white cursor-pointer flex flex-col items-center">
-              <li className=" font-bold md:text-lg mb-5 text-2xl">
-              Quick Links
-
-</li>
-
-              <li><a href="/shop" className="text-[25px] md:text-[15px]">
-              Menu
-
-</a></li>
-
-
-
-
-              <li><a href="/work" className="text-[25px] md:text-[15px]">
-              How it works
-
-</a></li>
-              <li><a href="/contact"   className="text-[25px] md:text-[15px]">  
-              Contact us
-
-</a></li>
-<li className="text-[25px] md:text-[15px]">
-<a
-  href="/Chomp_PrivacyPolicy.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
+        <div
+  className="
+    grid grid-cols-1 md:grid-cols-3
+    md:gap-50 gap-10
+    pt-14
+    text-center md:text-left
+    place-items-center md:place-items-start
+  "
 >
-  Privacy Policy
-</a>
-
-</li>
-<li className="text-[25px] md:text-[15px]">
-<a
-    href="/Chomp_TermsofUse.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Terms of Use
-  </a>
-  </li>
-
-             
-            </ul>
-
-          </div>
-
-          {/* GET IN TOUCH */}
-          <div className=" flex-col items-center flex">
-
-            <h3 className="font-bold text-lg mb-5">
-               Get In Touch
-            </h3>
-
-            <ul className="space-y-3 text-white   ml-20">
-            
-            
-
-            {/* <li>
-  <div className="flex items-center gap-3">
-
-    <FaPhoneAlt className="text-white text-[18px]" />
-
-    <p  className=" pl-2">
-    +91 91091 17355
-    </p>
-
+  {/* LEFT TEXT */}
+  <div>
+    <h2 className="text-3xl font-bold leading-tight ml-0 md:ml-5">
+      Bhopal's first <br />
+      fresh food kitchen
+      <br />
+      for pets
+    </h2>
   </div>
-</li> */}
 
-              <li>
-                  <div className="flex items-start gap-3">
+  {/* PRODUCTS */}
+  <div>
+    <ul className="space-y-3 text-white cursor-pointer flex flex-col items-center md:items-start">
+      <li className="font-bold md:text-lg mb-5 text-2xl">
+        Quick Links
+      </li>
 
-<FaEnvelope className="text-white mt-1 text-[18px]" />
+      <li>
+        <a href="/shop">Menu</a>
+      </li>
 
-<div>
- 
+      <li>
+        <a href="/work">How it works</a>
+      </li>
 
+      <li>
+        <a href="/contact">Contact us</a>
+      </li>
 
-  <p className=" pl-2">
-  connect@getchomp.in
-  </p>
-</div>
+      <li>
+        <a
+          href="/Chomp_PrivacyPolicy.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Privacy Policy
+        </a>
+      </li>
 
-</div>
-
-</li>
-          
-<li>
-  <div className="flex items-center gap-3">
-  <IoLogoWhatsapp   className="text-white text-[23px]" />
-  
-
-    <p  className=" pl-2">
-    +91 91091 17355
-    </p>
-
+      <li>
+        <a
+          href="/Chomp_TermsofUse.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Terms of Use
+        </a>
+      </li>
+    </ul>
   </div>
-</li>
 
+  {/* GET IN TOUCH */}
+  <div className="flex flex-col items-center text-center md:items-start md:text-left">
+  <h3 className="font-bold md:text-lg text-2xl mb-5">
+    Get In Touch
+  </h3>
 
-              <li> <div className="flex items-start gap-3">
+  <ul className="space-y-5 text-white ml-0">
+    <li>
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-3">
+        <FaEnvelope className="text-white text-[18px]" />
 
-<FaMapMarkerAlt className="text-white mt-1 text-[28px]" />
+        <p>connect@getchomp.in</p>
+      </div>
+    </li>
 
-<div>
-  <p className=" pl-2">
-  Kitchen: B/136, Mahakali Society, Trilanga, Bhopal 462039
+    <li>
+      <div className="flex flex-col md:flex-row items-center gap-2 md:gap-3">
+        <IoLogoWhatsapp className="text-white text-[23px]" />
 
+        <p>+91 91091 17355</p>
+      </div>
+    </li>
 
+    <li>
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-3">
+        <FaMapMarkerAlt className="text-white text-[28px]" />
 
-  </p>
-
- 
+        <p>
+          Kitchen: B/136, Mahakali Society,
+          Trilanga, Bhopal 462039
+        </p>
+      </div>
+    </li>
+  </ul>
 </div>
-
 </div>
-</li>
-          
-
-              {/* <li>Privacy Policy</li>
-              <li>Terms & Conditions</li> */}
-            </ul>
-
-          </div>
-
-        </div>
 
         {/* BOTTOM */}
         <div
-          className="
-            flex flex-col md:flex-row
-            justify-between
-            items-center
-            gap-6
-            pt-14
-            pr-27
-          "
-        >
-
-          <p className="text-white  text-sm">
-          Copyright @ 2026 Juniper Collective Pvt. Ltd. All rights reserved.
-
-          </p>
-
-          {/* SOCIAL ICONS */}
-          <div className="flex items-center gap-4">
-            
-          <a
-  href="mailto:connect@getchomp.in"
-  className="w-10 h-10 rounded-full  flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+  className="
+    flex flex-col md:flex-row
+    justify-between
+    items-center
+    gap-6
+    md:pl-5 md:pr-10
+    px-5
+    pt-5
+    text-center md:text-left
+  "
 >
-  <MdEmail size={18} />
-</a>
+  <p className="text-white text-sm">
+    Copyright @ 2026 Juniper Collective Pvt. Ltd.
+    All rights reserved.
+  </p>
 
-<a
-  href="https://www.facebook.com/profile.php?id=61572035913039"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-10 h-10 rounded-full  flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
->
-<FaFacebookF size={16} />
-</a>
-         
+  {/* SOCIAL ICONS */}
+  <div className="flex items-center justify-center gap-4 mr-0">
+    <a
+      href="mailto:connect@getchomp.in"
+      className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+    >
+      <MdEmail size={18} />
+    </a>
 
+    <a
+      href="https://www.facebook.com/profile.php?id=61572035913039"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+    >
+      <FaFacebookF size={16} />
+    </a>
 
-          
-         
-
-              <a
-  href="https://instagram.com/lets.chomp"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-10 h-10 rounded-full  flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
->
-  <FaInstagram size={16} />
-</a>
-         
-
-     
-
-         
-
-          </div>
-
-        </div>
+    <a
+      href="https://instagram.com/lets.chomp"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"
+    >
+      <FaInstagram size={16} />
+    </a>
+  </div>
+</div>
 
       </div>
     </footer>

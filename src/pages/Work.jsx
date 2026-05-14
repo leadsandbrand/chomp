@@ -7,7 +7,7 @@ import Footer1 from '../commponent/Footer1';
 const Work = () => {
   return (
     <>
-<section className="bg-white px-4 md:px-12 lg:px-[80px]">
+<section className="bg-white px-4 md:px-12 lg:px-[80px] " >
   <Navbar/>
 {/* HEADING */}
 {/* HERO IMAGE */}
@@ -15,18 +15,17 @@ const Work = () => {
 
   {/* LINE */}
   <div
-    className="
-      absolute
-      top-[274px]
-      left-0
-      w-[92%]
-      h-[1px]
-      bg-[#d97063]
-       ml-[32px]
-       
-      
-    "
-  ></div>
+  className="
+    absolute
+    md:top-[274px]
+    top-[190px]
+    left-1/2
+    -translate-x-1/2
+    w-[90%]
+    h-[1px]
+    bg-[#d97063]
+  "
+></div>
 
   {/* IMAGE */}
   <img
@@ -58,10 +57,10 @@ const Work = () => {
 </div>
 
 {/* TOP SECTION */}
-<div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+<div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto place-items-center text-center md:text-left">
 
   {/* Trial Packs */}
-  <div className="bg-[#f9f9f9] rounded-2xl p-8">
+  <div className="bg-[#f9f9f9] rounded-2xl p-8 w-full">
     <h3 className="text-xl font-bold text-black mb-3">
       Trial Packs
     </h3>
@@ -80,7 +79,7 @@ const Work = () => {
   </div>
 
   {/* Subscription */}
-  <div className="bg-[#f9f9f9] rounded-2xl p-8">
+  <div className="bg-[#f9f9f9] rounded-2xl p-8 w-full">
     <h3 className="text-xl font-bold text-black mb-3">
       Subscription
     </h3>

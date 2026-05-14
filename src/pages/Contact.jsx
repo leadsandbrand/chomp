@@ -351,7 +351,7 @@ const handleSubmit = async (e) => {
   </div>
 
   {/* RIGHT IMAGE */}
-  <div className="hidden lg:flex items-end justify-center  pb-12">
+  <div className="lg:flex items-end justify-center  pb-12">
 
 <img
   src="/final.2.png"
@@ -380,7 +380,7 @@ const handleSubmit = async (e) => {
           Tap here to message us on WhatsApp!
         </a>
       </div> */}
-  <div className="mt-8 ml-110 ">
+<div className="mt-8 text-center md:text-left md:ml-20">
 
 <h3 className="text-2xl md:text-3xl font-oswald font-bold text-black">
   Rather just chat? We get it.

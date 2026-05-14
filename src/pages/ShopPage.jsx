@@ -13,7 +13,7 @@ const DetailProduct = () => {
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
   {/* LEFT CONTENT */}
-  <div className="max-w-xl text-white text-center lg:text-left mt-2">
+  <div className="max-w-xl text-white text-center lg:text-left mt-10 mb-15">
 
     <h1 className="text-4xl md:text-5xl font-bold   ">
      Chomp Soya+ 
@@ -64,7 +64,7 @@ const DetailProduct = () => {
 
   {/* RIGHT IMAGE */}
 {/* RIGHT IMAGE */}
-<div className="mt-0 relative flex justify-center lg:justify-start w-full lg:w-auto">
+<div className="mt-0 relative flex justify-center lg:justify-start w-full lg:w-auto  ">
 
   {/* BACK IMAGE */}
   {/* <img
@@ -86,7 +86,7 @@ const DetailProduct = () => {
     alt="product front"
     className="
       relative
-      w-[180px] sm:w-[220px] md:w-[280px] lg:w-[450px]
+      w-[200px] sm:w-[220px] md:w-[280px] lg:w-[450px]
       ml-6 sm:ml-10 md:ml-14 lg:ml-[-50px]
       mt-6 sm:mt-10 md:mt-14 lg:mt-0   lg:top-10
       z-10
@@ -106,7 +106,7 @@ const DetailProduct = () => {
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
   {/* LEFT CONTENT */}
-  <div className="max-w-xl text-white text-center lg:text-left mt-20">
+  <div className="max-w-xl text-white text-center lg:text-left  mt-10 mb-15">
 
     <h1 className="text-4xl md:text-5xl font-bold   ">
     Chomp Egg+ 
@@ -180,7 +180,7 @@ const DetailProduct = () => {
     alt="product front"
     className="
       relative
-      w-[180px] sm:w-[220px] md:w-[280px] lg:w-[450px]
+      w-[200px] sm:w-[220px] md:w-[280px] lg:w-[450px]
       ml-6 sm:ml-10 md:ml-14 lg:ml-[-50px]
       mt-6 sm:mt-10 md:mt-14 lg:mt-0   lg:top-10
       z-10
@@ -200,7 +200,7 @@ const DetailProduct = () => {
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
   {/* LEFT CONTENT */}
-  <div className="max-w-xl text-white text-center lg:text-left mt-2">
+  <div className="max-w-xl text-white text-center lg:text-left  mt-10 mb-15">
 
     <h1 className="text-4xl md:text-5xl font-bold   ">
     Chomp Chicken+ 
@@ -273,7 +273,7 @@ const DetailProduct = () => {
     alt="product front"
     className="
       relative
-      w-[180px] sm:w-[220px] md:w-[280px] lg:w-[450px]
+      w-[200px] sm:w-[220px] md:w-[280px] lg:w-[450px]
       ml-6 sm:ml-10 md:ml-14 lg:ml-[-50px]
       mt-6 sm:mt-10 md:mt-14 lg:mt-0   lg:top-10
       z-10
@@ -293,7 +293,7 @@ const DetailProduct = () => {
 <div className="w-full px-6 md:px-12 lg:px-[100px] flex flex-col lg:flex-row items-center justify-between">
 
   {/* LEFT CONTENT */}
-  <div className="max-w-xl text-white text-center lg:text-left mt-2">
+  <div className="max-w-xl text-white text-center lg:text-left  mt-10 mb-15">
 
     <h1 className="text-4xl md:text-5xl font-bold   ">
     Chomp Paneer+ 
@@ -370,7 +370,7 @@ const DetailProduct = () => {
     alt="product front"
     className="
       relative
-      w-[180px] sm:w-[220px] md:w-[280px] lg:w-[450px]
+      w-[200px] sm:w-[220px] md:w-[280px] lg:w-[450px]
       ml-6 sm:ml-10 md:ml-14 lg:ml-[-50px]
       mt-6 sm:mt-10 md:mt-14 lg:mt-0   lg:top-10
       z-10
