@@ -60,7 +60,7 @@ const handleSubmit = async (e) => {
 
     setSubmitted(true);
 
-    alert("You're in! We'll get in touch soon. Your dog is about to have a very good day.");
+   
 
   } catch (error) {
 
@@ -110,6 +110,7 @@ const handleSubmit = async (e) => {
           <input
   type="text"
   placeholder="What do we call you?"
+  required
   value={name}
   onChange={(e) => setName(e.target.value)}
   className="
@@ -120,7 +121,7 @@ const handleSubmit = async (e) => {
     placeholder:text-sm
     focus:border-[#d97063]
   "
-  required
+
 />
 
         </div>
@@ -135,6 +136,7 @@ const handleSubmit = async (e) => {
           <input
             type="text"
             placeholder="The real star of the show"
+            required
             value={dogname}
             onChange={(e) => setDogname(e.target.value)}
             className="
@@ -160,6 +162,7 @@ const handleSubmit = async (e) => {
             type="text"
             placeholder="How old?"
             value={age}
+            required
             onChange={(e) => setAge(e.target.value)}
             className="
               w-full
@@ -208,6 +211,7 @@ const handleSubmit = async (e) => {
   type="tel"
   placeholder="No bots! Real humans respond"
   value={phone}
+  required
   onChange={(e) => setPhone(e.target.value)}
   className="
     w-full
@@ -217,7 +221,7 @@ const handleSubmit = async (e) => {
     placeholder:text-sm
     focus:border-[#d97063]
   "
-  required
+
 />
         </div>
 
@@ -231,6 +235,7 @@ const handleSubmit = async (e) => {
           <input
   type="email"
   placeholder="(Optional)"
+
   value={email}
   onChange={(e) => setEmail(e.target.value)}
   className="
@@ -259,6 +264,7 @@ const handleSubmit = async (e) => {
 
             value={address}
             onChange={(e) => setAddress(e.target.value)}
+            required
             className="
               w-full
               border border-gray-200
@@ -282,6 +288,7 @@ const handleSubmit = async (e) => {
   type="text"
   placeholder="Any questions or just looking to find out more?"
   value={message}
+  
   onChange={(e) => setMessage(e.target.value)}
   className="
     w-full
@@ -326,13 +333,13 @@ const handleSubmit = async (e) => {
 
     ) : (
 
-      <div className="text-center py-16">
+      <div className="text-center py-16  mt-20">
 
-        <h3 className="text-2xl font-bold text-green-600 mb-4">
+        <h3 className="text-2xl font-bold text-[#d9766a] mb-4">
           You're in!
         </h3>
 
-        <p className="text-gray-600">
+        <p className="">
           We'll get in touch soon.
           Your dog is about to have a very good day.
         </p>

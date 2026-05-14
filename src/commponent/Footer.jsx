@@ -47,7 +47,7 @@ const Footer = () => {
 
           {/* LOGO */}
           <div>
-            <img src="/logochomp.white.png"   className="w-24 md:w-36 object-contain cursor-pointer"/>
+            <img src="/logochomp.white.png"   className="w-30 md:w-36 object-contain cursor-pointer  md:pb-0  pb-10"/>
           </div>
               
               <div> <h1 className=" text-3xl font-bold">Our food is prepared and delivered with ❤︎ in Bhopal</h1></div>
@@ -64,7 +64,7 @@ const Footer = () => {
         <div 
           className="
             grid grid-cols-1 md:grid-cols-3
-            gap-50
+            md:gap-50 gap-10
             pt-14
           "
         >
@@ -72,7 +72,7 @@ const Footer = () => {
           {/* LEFT TEXT */}
           <div >
 
-            <h2 className="text-3xl font-bold leading-tight">
+            <h2 className="text-3xl font-bold leading-tight ml-7">
             Bhopal's first  <br />
                fresh food kitchen<br />
               for pets
@@ -93,13 +93,13 @@ const Footer = () => {
           <div>
 
            
-            <ul className="space-y-3 text-white cursor-pointer">
-              <li className=" font-bold text-lg mb-5">
+            <ul className="space-y-3 text-white cursor-pointer flex flex-col items-center">
+              <li className=" font-bold md:text-lg mb-5 text-2xl">
               Quick Links
 
 </li>
 
-              <li><a href="/shop">
+              <li><a href="/shop" className="text-[25px] md:text-[15px]">
               Menu
 
 </a></li>
@@ -107,15 +107,15 @@ const Footer = () => {
 
 
 
-              <li><a href="/work">
+              <li><a href="/work" className="text-[25px] md:text-[15px]">
               How it works
 
 </a></li>
-              <li><a href="/contact">
+              <li><a href="/contact"   className="text-[25px] md:text-[15px]">  
               Contact us
 
 </a></li>
-<li className=" ">
+<li className="text-[25px] md:text-[15px]">
 <a
   href="/Chomp_PrivacyPolicy.pdf"
   target="_blank"
@@ -125,7 +125,7 @@ const Footer = () => {
 </a>
 
 </li>
-<li className=" ">
+<li className="text-[25px] md:text-[15px]">
 <a
     href="/Chomp_TermsofUse.pdf"
     target="_blank"
@@ -140,31 +140,14 @@ const Footer = () => {
 
           </div>
 
-          {/* COMMUNITY */}
-          {/* <div>
-
-            <h3 className="font-bold text-lg mb-5">
-              COMMUNITY
-            </h3>
-
-            <ul className="space-y-3 text-white">
-              <li>News & Stories</li>
-              <li>Recipes</li>
-              <li>Our Story</li>
-              <li>Pet Wellness</li>
-              <li>Blogs</li>
-            </ul>
-
-          </div> */}
-
           {/* GET IN TOUCH */}
-          <div>
+          <div className=" flex-col items-center flex">
 
             <h3 className="font-bold text-lg mb-5">
                Get In Touch
             </h3>
 
-            <ul className="space-y-3 text-white">
+            <ul className="space-y-3 text-white   ml-20">
             
             
 
@@ -189,7 +172,7 @@ const Footer = () => {
  
 
 
-  <p className="text-sm text-white pl-2">
+  <p className=" pl-2">
   connect@getchomp.in
   </p>
 </div>

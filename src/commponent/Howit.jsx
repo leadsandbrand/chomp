@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Howit = () => {
   return (
     <>
-    <div className='flex  flex-col  lg:flex-row items- gap-3  pt-20  px-15 '>
+    <div className='flex  flex-col  lg:flex-row items- gap-3  pt-20  md:px-15  pr-10 '>
     
     
     <div className=' w-[full] lg:w-[47%]  pl-17    mt-5'>
@@ -24,7 +24,7 @@ Please  note  we cook fresh each day.
 
 
 
-<div className="mt-8 flex flex-col items-center md:items-start ">
+<div className="mt-8 flex flex-col items-center md:items-start mr-10  pb-4 md:pb-0 md:mr-0">
 
 <Link
   to="/work"

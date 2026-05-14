@@ -71,11 +71,11 @@ export default function Testimonial() {
   />
 </div>
 
-    <h2 className="mt-5 text-xl font-bold ml-17 ">
+    <h2 className="mt-5 text-xl font-bold  md:ml-17 ">
       {testimonials[index].name}
     </h2>
 
-    <p className="text-black  ml-21 ">
+    <p className="text-black  md:ml-21 ">
       {testimonials[index].role}
     </p>
   </div>

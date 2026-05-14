@@ -94,7 +94,7 @@ export default function HeroPage() {
   </button>
 </a>
 
-              <p className="text-sm text-black mt-3">
+              <p className="text-sm text-black mt-5  pb-15">
               Trial packs, monthly & fortnightly subscription plans available
 
               </p>

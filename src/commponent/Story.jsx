@@ -11,7 +11,7 @@ const Story = () => {
      
 
 
-<p className="   text-lg md:text-xl ml-40 font-semibold text-black pt-3">
+<p className="   text-lg md:text-xl  md:ml-40 md:mt-0   font-semibold text-black pt-7">
   Meet Jiya,  our Head of Quality Control
 
   </p>
@@ -24,7 +24,7 @@ const Story = () => {
       md:w-[520px]
       lg:w-[450px]
       xl:w-[400px]
-      object-contain  md:ml-25 md:mt-9
+      object-contain  md:ml-25 md:mt-9 md:mr-0  mr-6 mt-5
     "
   />
 
@@ -33,7 +33,7 @@ const Story = () => {
 </div>
 
 {/* TEXT */}
-<div className="w-full lg:w-[52%] max-w-2xl pr-27 mt-5  ">
+<div className="w-full lg:w-[52%] max-w-2xl  md:pr-27 mt-5  md:pl-0 pl-10  md:pr-0 pr-10">
 
   <h2 className="text-4xl md:text-5xl font-bold  font-oswald  text-[#6687d8]">
     How Chomp got started

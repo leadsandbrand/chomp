@@ -3,7 +3,7 @@ import React from "react";
 export default function FeaturedProducts() {
   return (
    <>
-    <div className="w-screen bg-[#fff] overflow-hidden relative pt-12 md:pt-15">
+    <div className="w-screen bg-[#fff] overflow-hidden relative md:pt-12 md:pt-15">
 
 {/* SECTION */}
 <section
@@ -22,7 +22,7 @@ export default function FeaturedProducts() {
   <div
     className="
       flex
-      justify-center md:justify-start
+      justify-center md:justify-start mr-10 
       order-1
     "
   >
@@ -69,7 +69,7 @@ export default function FeaturedProducts() {
       </p>
 
       {/* PRODUCT GRID */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-6 mt-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-6 mt-4 ">
 
         {/* CARD 1 */}
         <div className="flex flex-col items-center md:items-start">

@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`z-50 flex items-center gap-[285px] px-4 md:px-16 lg:px-[80px] h-[70px] md:h-[80px] font-oswald text-black w-full transition-all duration-500 bg-white ${
+      className={`z-50 flex items-center gap-50 md:gap-[285px] px-4 md:px-16 lg:px-[80px] h-[70px] md:h-[80px] font-oswald text-black w-full transition-all duration-500 bg-white ${
         fixedNav ? "fixed top-0 left-0 shadow-md" : "absolute top-0 left-0"
       } ${show ? "translate-y-0" : "-translate-y-full"}`}
     >
@@ -67,7 +67,7 @@ export default function Navbar() {
 
       {/* Hamburger (Mobile) */}
       <button
-        className="md:hidden flex flex-col gap-1"
+        className="md:hidden flex flex-col gap-1 "
         onClick={() => setMenuOpen(!menuOpen)}
       >
         <span className="w-6 h-[2px] bg-black"></span>

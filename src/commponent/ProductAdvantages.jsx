@@ -59,10 +59,10 @@ export default function ProductAdvantages() {
          */}
    
 
-        <p className="text-black mt-4 max-w-xl mx-auto text-lg">
+        <p className="text-black  mt-4 max-w-xl mx-auto text-lg   md:pl-0 md:pr-0  pl-5 pr-5">
         Because your dog can’t read ingredient labels. But we can!
         </p>
-        <p className="text-black mt-1  mx-auto text-lg">
+        <p className="text-black mt-1  mx-auto text-lg  md:pl-0 md:pr-0  pl-5 pr-5">
 Our Chomp meals are carefully crafted to support better digestion, shinier coats and higher energy levels. 
 
 </p>
@@ -78,7 +78,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
         <img
           src={item.icon}
           alt={item.title}
-          className="w-25 h-25 object-contain "
+          className=" md:w-25  md:h-25   h-[100px] w-[300px]  mt-10  md:m-0 object-contain  "
         />
       </div>
 
@@ -107,7 +107,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
                <img
     src={item.icon}
      alt={item.title}
-  className="w-25 h-25 object-contain"
+  className="w-25 h-25  md:w-25  md:h-25   h-[100px] w-[300px]  mt-10  md:m-0 object-contain"
 />
               </div>
 
