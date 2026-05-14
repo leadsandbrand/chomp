@@ -66,6 +66,15 @@ export default function ProductAdvantages() {
 Our Chomp meals are carefully crafted to support better digestion, shinier coats and higher energy levels. 
 
 </p>
+
+<div className="flex justify-center  mt-5 lg:hidden">
+          <img
+            src="/center.png"
+            alt="food bowl"
+            className="w-[200px] object-contain"
+          />
+        </div>
+
       </div>
 
       {/* Main Content */}
@@ -91,7 +100,7 @@ Our Chomp meals are carefully crafted to support better digestion, shinier coats
 </div>
 
         {/* Center Bowl Image */}
-        <div className="flex justify-center ">
+         <div className="hidden lg:flex justify-center"> 
           <img
             src="/center.png"
             alt="food bowl"

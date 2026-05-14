@@ -49,9 +49,11 @@ const Work = () => {
 
 
 <div className="text-center mb-16 ">
-  <h2 className="text-3xl md:text-5xl font-oswald font-bold text-black ">
-    Getting started is super easy!
-  </h2>
+<h2 className="text-3xl md:text-5xl font-oswald font-bold text-black">
+  Getting started is{" "}
+  <br className="md:hidden" />
+   super easy!
+</h2>
 
   <div className="w-14 h-1 bg-[#d97063] mx-auto mt-4 rounded-full"></div>
 </div>
@@ -103,7 +105,9 @@ const Work = () => {
 <div className="mt-20 text-center max-w-3xl mx-auto">
 
   <h3 className="text-2xl md:text-3xl font-oswald font-bold text-black mb-4">
-    How do our subscriptions work?
+    How do our 
+    <br className="md:hidden" />
+    subscriptions work?
   </h3>
 
   <p className="text-gray-600 mb-12">

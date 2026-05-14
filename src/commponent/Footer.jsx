@@ -39,7 +39,7 @@ const Footer = () => {
     grid grid-cols-1 md:grid-cols-2
     md:grid-cols-[20%_80%]
     pb-10
-    pl-0 md:pl-25
+   md:pl-0 
     border-b border-white
     text-center md:text-left
     place-items-center md:place-items-start
@@ -178,7 +178,7 @@ const Footer = () => {
   </p>
 
   {/* SOCIAL ICONS */}
-  <div className="flex items-center justify-center gap-4 mr-0">
+  <div className="flex items-center justify-center gap-4  md: mr-17 ml-14">
     <a
       href="mailto:connect@getchomp.in"
       className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-white hover:text-black transition cursor-pointer"

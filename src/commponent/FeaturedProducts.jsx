@@ -19,29 +19,49 @@ export default function FeaturedProducts() {
 >
 
   {/* LEFT IMAGE */}
-  <div
-    className="
-      flex
-      justify-center md:justify-start mr-10 
-      order-1
-    "
-  >
+{/* LEFT IMAGE */}
+<div
+  className="
+    flex flex-col
+    items-center md:items-start
+    justify-center md:justify-start
+    order-1
+    text-center md:text-left
+  "
+>
 
-    <img
-      src="/final.3.png"
-      alt="Dog"
-      className="
-        w-[220px]
-        sm:w-[280px]
-        md:w-[360px]
-        lg:w-[500px]
-        xl:w-[300px]
-        object-contain
-         mt-17 ml-15
-      "
-    />
+  {/* MOBILE HEADING */}
+  <div className="md:hidden mb-6  mt-10">
+
+    <h1 className="text-4xl font-oswald font-bold text-[#d97164]">
+      The Menu
+    </h1>
+
+    <p className="mt-4 text-sm leading-relaxed px-4">
+      Wholesome, freshly cooked meals of proteins,
+      carbohydrates, fibre, essential fats and
+      micronutrients.
+    </p>
 
   </div>
+
+  {/* IMAGE */}
+  <img
+    src="/final.3.png"
+    alt="Dog"
+    className="
+      w-[220px]
+      sm:w-[280px]
+      md:w-[360px]
+      lg:w-[500px]
+      xl:w-[300px]
+      object-contain
+      mt-5 md:mt-17
+      ml-0 md:ml-15
+    "
+  />
+
+</div>
 
   {/* RIGHT SIDE CONTENT */}
   <div
@@ -57,17 +77,15 @@ export default function FeaturedProducts() {
     <div className="max-w-[900px] w-full">
 
       {/* HEADING */}
-      <h1 className="text-4xl md:text-5xl font-oswald font-bold  text-[#d97164]">
-        The Menu
-      </h1>
-
+      <h1 className="hidden md:block text-4xl md:text-5xl font-oswald font-bold text-[#d97164]">
+  The Menu
+</h1>
       {/* DESCRIPTION */}
-      <p className="mt-8 md:mt-6 text-sm md:text-lg font-reyes leading-relaxed">
-        Wholesome, freshly cooked meals of proteins, carbohydrates
-        <br className="hidden md:block" />
-        fibre, essential fats and micronutrients.
-      </p>
-
+      <p className="hidden md:block mt-8 md:mt-6 text-sm md:text-lg font-reyes leading-relaxed">
+  Wholesome, freshly cooked meals of proteins, carbohydrates
+  <br className="hidden md:block" />
+  fibre, essential fats and micronutrients.
+</p>
       {/* PRODUCT GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-6 mt-4 ">
 

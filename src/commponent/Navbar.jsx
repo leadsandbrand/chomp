@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`z-50 flex items-center gap-50 md:gap-[285px] px-4 md:px-16 lg:px-[80px] h-[70px] md:h-[80px] font-oswald text-black w-full transition-all duration-500 bg-white ${
+      className={`z-50 flex items-center gap-24 md:gap-[285px] px-30 md:px-16 lg:px-[80px] h-[70px] md:h-[80px] font-oswald text-black w-full transition-all duration-500 bg-white ${
         fixedNav ? "fixed top-0 left-0 shadow-md" : "absolute top-0 left-0"
       } ${show ? "translate-y-0" : "-translate-y-full"}`}
     >
@@ -59,9 +59,7 @@ export default function Navbar() {
 
       {/* Right Side (Desktop) */}
       <div className="hidden md:flex gap-6 text-sm font-semibold items-center mr-8">
-        <span className="cursor-pointer hover:text-[#d97063]">
-          Sign In
-        </span>
+      
        
       </div>
 
@@ -91,12 +89,11 @@ export default function Navbar() {
             ORDER NOW
           </Link>
 
-          <hr className="w-3/4" />
-
-          <span>Sign In</span>
-          <span>Cart 0</span>
+        
+       
+         
         </div>
       )}
     </header>
   );
-}
+} 
