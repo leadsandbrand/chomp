@@ -12,7 +12,7 @@ const Howit = () => {
   How it works
 </h1>
 
-<div className="text-gray-700 mb-4 pt-6  pl-5 leading-relaxed">
+<div className="text-gray-700 mb-4 pt-6  pl-6 md:pl-0 leading-relaxed">
 
   <p>
     We offer multiple subscription plans for your convenience.
@@ -33,7 +33,7 @@ const Howit = () => {
 
 </div>
 
-<div className="mt-8 flex justify-center md:justify-start pb-4">
+<div className="mt-8 flex justify-center md:justify-start pb-4  md:ml-0  ml-8">
   <Link
     to="/work"
     className="
@@ -68,6 +68,7 @@ className="
           lg:w-[350px]
           xl:w-[500px]
   object-contain
+   ml-10
   pb-15
 "
 />

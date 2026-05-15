@@ -83,7 +83,7 @@ export default function Navbar() {
             MENU
           </Link>
           <Link to="/work" onClick={() => setMenuOpen(false)}>
-            HOW IT WORK
+            HOW IT WORKS
           </Link>
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
             ORDER NOW

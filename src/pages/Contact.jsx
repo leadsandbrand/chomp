@@ -380,7 +380,7 @@ const handleSubmit = async (e) => {
           Tap here to message us on WhatsApp!
         </a>
       </div> */}
-<div className="mt-8 text-center md:text-left md:ml-20">
+<div className="mt-8 text-center md:text-left md:ml-103">
 
 <h3 className="text-2xl md:text-3xl font-oswald font-bold text-black">
   Rather just chat? We get it.
