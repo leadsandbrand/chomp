@@ -49,7 +49,7 @@ export default function Navbar() {
         <Link to="/shop" className="hover:text-[#d97063] transition">
           MENU 
         </Link>
-        <Link to="/work" className="hover:text-[#d97063] transition">
+        <Link to="/works" className="hover:text-[#d97063] transition">
           HOW IT WORKS 
         </Link>
         <Link to="/contact" className="hover:text-[#d97063] transition">
@@ -82,7 +82,7 @@ export default function Navbar() {
           <Link to="/shop" onClick={() => setMenuOpen(false)}>
             MENU
           </Link>
-          <Link to="/work" onClick={() => setMenuOpen(false)}>
+          <Link to="/works" onClick={() => setMenuOpen(false)}>
             HOW IT WORKS
           </Link>
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
