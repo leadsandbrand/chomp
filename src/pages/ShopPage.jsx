@@ -22,7 +22,7 @@ const DetailProduct = () => {
 
    <div className="flex justify-center lg:hidden">
         <img
-          src="/chompmanubanner2.png"
+          src="/chompmanubanner.4.png"
           alt="product front"
           className="
             w-[200px]
