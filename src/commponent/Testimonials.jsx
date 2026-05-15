@@ -59,7 +59,7 @@ export default function Testimonial() {
 </button>
 
 {/* CARD */}
-<div className="bg-white rounded-3xl shadow-2xl flex flex-col md:flex-row items-center gap-5 p-8 w-[650px] max-w-4xl transition-all duration-500">
+<div className="bg-white rounded-3xl shadow-2xl flex flex-col md:flex-row items-center gap-11 md:gap-20 p-8 w-[650px] max-w-4xl transition-all duration-500">
 
   {/* LEFT SIDE */}
   <div className="flex flex-col items-center md:items-start md:w-1/3">
