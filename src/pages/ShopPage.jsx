@@ -22,8 +22,8 @@ const DetailProduct = () => {
     <p className="text-lg leading-relaxed mb-6 mt-4">
     Textured soya protein with mixed vegetables and wholegrains.
      <br></br>
-     Designed for vegetarian households who don't want to
-     <br></br>
+     Designed for vegetarian households who don't want to {" "}
+     <br className="hidden md:block" />
       compromise on protein or taste.
     </p>
 
@@ -327,8 +327,8 @@ const DetailProduct = () => {
       <p className="text-lg leading-relaxed mb-6 mt-4">
         Fresh cottage cheese with vegetables and rice.
         <br />
-        A favourite in our kitchen. Soft, creamy, and packed with calcium
-        <br />
+        A favourite in our kitchen. Soft, creamy, and packed with calcium {"  "}
+        <br className="hidden md:block" />
         and protein. Dogs go absolutely wild for this one.
       </p>
 

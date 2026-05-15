@@ -81,7 +81,7 @@ export default function FeaturedProducts() {
   The Menu
 </h1>
       {/* DESCRIPTION */}
-      <p className="hidden md:block mt-8 md:mt-6 text-sm md:text-lg font-reyes leading-relaxed">
+      <p className="hidden md:block mt-8 md:mt-6    text-lg  md:text-lg font-reyes leading-relaxed">
   Wholesome, freshly cooked meals of proteins, carbohydrates
   <br className="hidden md:block" />
   fibre, essential fats and micronutrients.
@@ -101,7 +101,7 @@ export default function FeaturedProducts() {
             "
           />
 
-          <div className="text-sm text-gray-700 font-semibold space-y-1 pl-3">
+          <div className="text-sm text-700 font-semibold space-y-1 pl-3">
             <p>Lean protein</p> 
             <p>Whole-food calcium</p>
             <p> Naturally high fibre</p>
@@ -121,7 +121,7 @@ export default function FeaturedProducts() {
             "
           />
 
-          <div className="text-sm text-gray-700 font-semibold space-y-1 pl-2">
+          <div className="text-sm text-700 font-semibold space-y-1 pl-2">
             <p>Highest bioavailability</p>
             <p>Oat fibre</p>
             <p> Whole-food minerals</p>
@@ -141,7 +141,7 @@ export default function FeaturedProducts() {
             "
           />
 
-          <div className="text-sm text-gray-700 font-semibold space-y-1 pl-2">
+          <div className="text-sm text-700 font-semibold space-y-1 pl-2">
             <p>Plant-complete protein</p>
             <p>Digestible carbs</p>
 
@@ -163,7 +163,7 @@ export default function FeaturedProducts() {
             "
           />
 
-          <div className="text-sm text-gray-700 font-semibold space-y-1 pl-2">
+          <div className="text-sm text-700 font-semibold space-y-1 pl-2">
             <p>Dairy casein</p>
             <p>   High calcium</p>
             <p> 100% vegetarian</p>
