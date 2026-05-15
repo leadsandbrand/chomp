@@ -19,6 +19,21 @@ const DetailProduct = () => {
      Chomp Soya+ 
     </h1>
    <p className='text-black text-xl font-bold mt-3 italic'>Plant Power</p>
+
+   <div className="flex justify-center lg:hidden">
+        <img
+          src="/chompmanubanner2.png"
+          alt="product front"
+          className="
+            w-[200px]
+            sm:w-[220px]
+            mt-6
+            float-animation
+            drop-shadow-2xl
+          "
+        />
+      </div>
+
     <p className="text-lg leading-relaxed mb-6 mt-4">
     Textured soya protein with mixed vegetables and wholegrains.
      <br></br>
@@ -62,23 +77,11 @@ const DetailProduct = () => {
 
   </div>
 
-  {/* RIGHT IMAGE */}
 {/* RIGHT IMAGE */}
-<div className="mt-0 relative flex justify-center lg:justify-start w-full lg:w-auto  ">
+<div className=" hidden  lg:flex mt-0 relative  justify-center lg:justify-start w-full lg:w-auto  ">
 
-  {/* BACK IMAGE */}
-  {/* <img
-    src="/Chomp-Soya-ingredients.final.png"
-    alt="product back"
-    className="
-      absolute
-      w-[140px] sm:w-[180px] md:w-[250px] lg:w-[350px]
-      left-2 sm:left-4 md:left-6 lg:left-5
-      top-2 sm:top-4 md:top-6 lg:top-0
-      opacity-80 z-0
-      float-animation
-    "
-  /> */}
+
+  
 
   {/* FRONT IMAGE */}
   <img

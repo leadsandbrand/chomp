@@ -81,7 +81,7 @@ export default function FeaturedProducts() {
   The Menu
 </h1>
       {/* DESCRIPTION */}
-      <p className="mt-4 text-lg leading-relaxed px-4">
+      <p className=" hidden lg:block  mt-4 text-lg leading-relaxed px-4">
   Wholesome, freshly cooked meals of proteins, carbohydrates
   <br className="hidden md:block" />
   fibre, essential fats and micronutrients.
